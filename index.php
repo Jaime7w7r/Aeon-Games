@@ -9,6 +9,7 @@
 	<h1>Bienvenido a mi sitio</h1>
 	<h2>Aeon-Games</h2>
 	<label>Usuario</label>
+	<p>HOLA SOY OTRO DE LOS COLABORADORES DEL EQUIPO</p>
 	<input type="text" name="nombre">
 </body>
 </html>

@@ -7,8 +7,7 @@
 </head>
 <body>
 	<h1>Bienvenido a mi sitio</h1>
-	<h3>Bárbara</h3>
-
+	<h2>Aeon-Games</h2>
 	<label>Usuario</label>
 	<input type="text" name="nombre">
 </body>

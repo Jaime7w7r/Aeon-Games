@@ -9,7 +9,7 @@
 	<h1>Bienvenido a mi sitio</h1>
 	<h3>Jaime</h3>
 
-	<label>Nombre</label>
+	<label>Usuario</label>
 	<input type="text" name="nombre">
 </body>
 </html>

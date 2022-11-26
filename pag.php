@@ -7,5 +7,6 @@
 </head>
 <body>
 	<h1>Pagina para prueba</h1>
+	<p>Esta es una pagina de prueba para git</p>
 </body>
 </html>

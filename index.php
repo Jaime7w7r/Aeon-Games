@@ -8,6 +8,7 @@
 <body>
 	<h1>Bienvenido a mi sitio</h1>
 	<h2>Aeon-Games</h2>
+	<h3>Leonardo Javier Hernandez</h3>
 	<label>Usuario</label>
 	<p>HOLA SOY OTRO DE LOS COLABORADORES DEL EQUIPO</p>
 	<h2>Estamos modificando</h2>

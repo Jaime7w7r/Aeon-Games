@@ -57,7 +57,7 @@
                     <img src="imagenes\images.jpg" alt="">
                     <div class="card-description">
                         <div class="card-title">
-                            <h4>Descripción</h4>
+                            <h4>God Of War</h4>
                         </div>
                         <div class="card-text">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum enim possimus dolorum non,

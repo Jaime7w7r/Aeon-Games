@@ -14,9 +14,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 </head>
 
-<body style="background-color: black; ">
+<body style="background: rgb(200,88,137);
+background: linear-gradient(0deg, rgba(200,88,137,0.9192051820728291) 7%, rgba(57,190,99,0.9332107843137255) 48%, rgba(24,99,186,1) 100%); ">
 
-<?php include 'header.php';?>
+    <?php include 'header.php';?>
 
 
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
@@ -50,285 +51,429 @@
     </div>
 
     <!-- Articulos -->
-<div class="container text-center">
-  <div class="container">
-    <h3 style="color: white;">Section</h3>
-    <div class="row">
-      <div class="col-md-3">
-        <div class="wsk-cp-product">
-          <div class="wsk-cp-img">
-            <img src="imagenes/images.jpg" alt="Product" class="img-responsive" />
-          </div>
-          <div class="wsk-cp-text">
-            <div class="category">
-              <span>PS5</span>
+    <div class="container text-center">
+        <div class="container">
+            <img src="imagenes\2560px-PlayStation_logo_and_wordmark.svg.png" alt="" style="height:40px">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="wsk-cp-product">
+                        <div class="wsk-cp-img">
+                            <img src="imagenes/images.jpg" alt="Product" class="img-responsive" />
+                        </div>
+                        <div class="wsk-cp-text">
+                            <div class="category">
+                                <span>PS5</span>
+                            </div>
+                            <div class="title-product">
+                                <h3>GOD OF WAR RAGNAROKK</h3>
+                            </div>
+                            <div class="description-prod">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius eos placeat ducimus
+                                    ipsam illum corporis vitae? Labore, eum, cupiditate? Exercitationem reprehenderit
+                                    velit est maiores amet quidem debitis dolores ad voluptatem.</p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="wcf-left"><span class="price">$1,500</span></div>
+                                <div class="wcf-right"><a href="#" class="buy-btn"><i
+                                            class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png"
+                                                width="60%"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="wsk-cp-product">
+                        <div class="wsk-cp-img"><img src="imagenes/images.jpg" alt="Product" class="img-responsive" />
+                        </div>
+                        <div class="wsk-cp-text">
+                            <div class="category">
+                                <span>Titulo</span>
+                            </div>
+                            <div class="title-product">
+                                <h3>Subtitulo</h3>
+                            </div>
+                            <div class="description-prod">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing, elit. Nulla recusandae
+                                    voluptatem, enim cumque eum animi dolorem. Hic, voluptatem numquam id, dolores
+                                    perferendis odit enim aut alias, est ipsa minima minus.</p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="wcf-left"><span class="price">$1,200</span></div>
+                                <div class="wcf-right"><a href="#" class="buy-btn"><i
+                                            class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png"
+                                                width="60%"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="wsk-cp-product">
+                        <div class="wsk-cp-img"><img src="imagenes/images.jpg" alt="Product" class="img-responsive" />
+                        </div>
+                        <div class="wsk-cp-text">
+                            <div class="category">
+                                <span>Titulo</span>
+                            </div>
+                            <div class="title-product">
+                                <h3>Subtitulo</h3>
+                            </div>
+                            <div class="description-prod">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus temporibus
+                                    assumenda, eaque. Quis temporibus magni laborum eligendi impedit qui, eaque quia
+                                    maiores, corrupti necessitatibus nemo sint tenetur, vero accusantium voluptas.</p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="wcf-left"><span class="price">$1250.00</span></div>
+                                <div class="wcf-right"><a href="#" class="buy-btn"><i
+                                            class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png"
+                                                width="60%"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="wsk-cp-product">
+                        <div class="wsk-cp-img"><img src="imagenes/images.jpg" alt="Product" class="img-responsive" />
+                        </div>
+                        <div class="wsk-cp-text">
+                            <div class="category">
+                                <span>Titulo</span>
+                            </div>
+                            <div class="title-product">
+                                <h3>Subtitulo</h3>
+                            </div>
+                            <div class="description-prod">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi similique, tempora
+                                    doloremque amet? Labore possimus quidem laborum ad sit atque dolorem quaerat
+                                    aliquam, illum vitae commodi odio totam doloribus dolore!</p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="wcf-left"><span class="price">$800.00</span></div>
+                                <div class="wcf-right"><a href="#" class="buy-btn"><i
+                                            class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png"
+                                                width="60%"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="wsk-cp-product">
+                        <div class="wsk-cp-img"><img src="imagenes/images.jpg" alt="Product" class="img-responsive" />
+                        </div>
+                        <div class="wsk-cp-text">
+                            <div class="category">
+                                <span>Titulo</span>
+                            </div>
+                            <div class="title-product">
+                                <h3>Subtitulo</h3>
+                            </div>
+                            <div class="description-prod">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi similique, tempora
+                                    doloremque amet? Labore possimus quidem laborum ad sit atque dolorem quaerat
+                                    aliquam, illum vitae commodi odio totam doloribus dolore!</p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="wcf-left"><span class="price">$800.00</span></div>
+                                <div class="wcf-right"><a href="#" class="buy-btn"><i
+                                            class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png"
+                                                width="60%"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-            <div class="title-product">
-              <h3>GOD OF WAR RAGNAROKK</h3>
-            </div>
-            <div class="description-prod">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius eos placeat ducimus ipsam illum corporis vitae? Labore, eum, cupiditate? Exercitationem reprehenderit velit est maiores amet quidem debitis dolores ad voluptatem.</p>
-            </div>
-            <div class="card-footer">
-              <div class="wcf-left"><span class="price">$1,500</span></div>
-              <div class="wcf-right"><a href="#" class="buy-btn"><i class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png" width="60%" ></i></a></div>
-            </div>
-          </div>
         </div>
-      </div>
-      <div class="col-md-3">
-        <div class="wsk-cp-product">
-          <div class="wsk-cp-img"><img src="imagenes/images.jpg" alt="Product" class="img-responsive" /></div>
-          <div class="wsk-cp-text">
-            <div class="category">
-              <span>Titulo</span>
-            </div>
-            <div class="title-product">
-              <h3>Subtitulo</h3>
-            </div>
-            <div class="description-prod">
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing, elit. Nulla recusandae voluptatem, enim cumque eum animi dolorem. Hic, voluptatem numquam id, dolores perferendis odit enim aut alias, est ipsa minima minus.</p>
-            </div>
-            <div class="card-footer">
-              <div class="wcf-left"><span class="price">$1,200</span></div>
-              <div class="wcf-right"><a href="#" class="buy-btn"><i class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png" width="60%" ></i></a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="wsk-cp-product">
-          <div class="wsk-cp-img"><img src="imagenes/images.jpg" alt="Product" class="img-responsive" /></div>
-          <div class="wsk-cp-text">
-            <div class="category">
-              <span>Titulo</span>
-            </div>
-            <div class="title-product">
-              <h3>Subtitulo</h3>
-            </div>
-            <div class="description-prod">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus temporibus assumenda, eaque. Quis temporibus magni laborum eligendi impedit qui, eaque quia maiores, corrupti necessitatibus nemo sint tenetur, vero accusantium voluptas.</p>
-            </div>
-            <div class="card-footer">
-              <div class="wcf-left"><span class="price">$1250.00</span></div>
-              <div class="wcf-right"><a href="#" class="buy-btn"><i class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png" width="60%" ></i></a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="wsk-cp-product">
-          <div class="wsk-cp-img"><img src="imagenes/images.jpg" alt="Product" class="img-responsive" /></div>
-          <div class="wsk-cp-text">
-            <div class="category">
-              <span>Titulo</span>
-            </div>
-            <div class="title-product">
-              <h3>Subtitulo</h3>
-            </div>
-            <div class="description-prod">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi similique, tempora doloremque amet? Labore possimus quidem laborum ad sit atque dolorem quaerat aliquam, illum vitae commodi odio totam doloribus dolore!</p>
-            </div>
-            <div class="card-footer">
-              <div class="wcf-left"><span class="price">$800.00</span></div>
-              <div class="wcf-right"><a href="#" class="buy-btn"><i class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png" width="60%" ></i></a></div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
-</div>
 
 
 
-
-<a href="#" style="color:#01c4e7"><div class="glitch" data-text="CYBERPUNK" style="background-image: url('./imagenes/bannerCP.png');">CYBERPUNK</div></a>
-
-
-
-
-<div class="container text-center">
-  <div class="container">
-    <h3 style="color: white;">Section</h3>
-    <div class="row">
-      <div class="col-md-3">
-        <div class="wsk-cp-product">
-          <div class="wsk-cp-img">
-            <img src="imagenes/images.jpg" alt="Product" class="img-responsive" />
-          </div>
-          <div class="wsk-cp-text">
-            <div class="category">
-              <span>PS5</span>
+    <div class="glitch_contenedor">
+        <a href="#" style="color:#01c4e7">
+            <div class="glitch" data-text="CYBERPUNK" style="background-image: url('./imagenes/bannerCP.png');">
+                CYBERPUNK
             </div>
-            <div class="title-product">
-              <h3>GOD OF WAR RAGNAROKK</h3>
-            </div>
-            <div class="description-prod">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius eos placeat ducimus ipsam illum corporis vitae? Labore, eum, cupiditate? Exercitationem reprehenderit velit est maiores amet quidem debitis dolores ad voluptatem.</p>
-            </div>
-            <div class="card-footer">
-              <div class="wcf-left"><span class="price">$1,500</span></div>
-              <div class="wcf-right"><a href="#" class="buy-btn"><i class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png" width="60%" ></i></a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="wsk-cp-product">
-          <div class="wsk-cp-img"><img src="imagenes/images.jpg" alt="Product" class="img-responsive" /></div>
-          <div class="wsk-cp-text">
-            <div class="category">
-              <span>Titulo</span>
-            </div>
-            <div class="title-product">
-              <h3>Subtitulo</h3>
-            </div>
-            <div class="description-prod">
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing, elit. Nulla recusandae voluptatem, enim cumque eum animi dolorem. Hic, voluptatem numquam id, dolores perferendis odit enim aut alias, est ipsa minima minus.</p>
-            </div>
-            <div class="card-footer">
-              <div class="wcf-left"><span class="price">$1,200</span></div>
-              <div class="wcf-right"><a href="#" class="buy-btn"><i class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png" width="60%" ></i></a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="wsk-cp-product">
-          <div class="wsk-cp-img"><img src="imagenes/images.jpg" alt="Product" class="img-responsive" /></div>
-          <div class="wsk-cp-text">
-            <div class="category">
-              <span>Titulo</span>
-            </div>
-            <div class="title-product">
-              <h3>Subtitulo</h3>
-            </div>
-            <div class="description-prod">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus temporibus assumenda, eaque. Quis temporibus magni laborum eligendi impedit qui, eaque quia maiores, corrupti necessitatibus nemo sint tenetur, vero accusantium voluptas.</p>
-            </div>
-            <div class="card-footer">
-              <div class="wcf-left"><span class="price">$1250.00</span></div>
-              <div class="wcf-right"><a href="#" class="buy-btn"><i class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png" width="60%" ></i></a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="wsk-cp-product">
-          <div class="wsk-cp-img"><img src="imagenes/images.jpg" alt="Product" class="img-responsive" /></div>
-          <div class="wsk-cp-text">
-            <div class="category">
-              <span>Titulo</span>
-            </div>
-            <div class="title-product">
-              <h3>Subtitulo</h3>
-            </div>
-            <div class="description-prod">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi similique, tempora doloremque amet? Labore possimus quidem laborum ad sit atque dolorem quaerat aliquam, illum vitae commodi odio totam doloribus dolore!</p>
-            </div>
-            <div class="card-footer">
-              <div class="wcf-left"><span class="price">$800.00</span></div>
-              <div class="wcf-right"><a href="#" class="buy-btn"><i class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png" width="60%" ></i></a></div>
-            </div>
-          </div>
-        </div>
-      </div>
+        </a>
     </div>
-  </div>
-</div>
 
 
 
-<div class="container text-center">
-  <div class="container">
-    <h3 style="color: white;">Section</h3>
-    <div class="row">
-      <div class="col-md-3">
-        <div class="wsk-cp-product">
-          <div class="wsk-cp-img">
-            <img src="imagenes/images.jpg" alt="Product" class="img-responsive" />
-          </div>
-          <div class="wsk-cp-text">
-            <div class="category">
-              <span>PS5</span>
+    <div class="container text-center">
+        <div class="container">
+            <img src="imagenes\1200px-XBOX_logo_2012.svg.png" alt="" style="height:40px">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="wsk-cp-product">
+                        <div class="wsk-cp-img">
+                            <img src="imagenes/images.jpg" alt="Product" class="img-responsive" />
+                        </div>
+                        <div class="wsk-cp-text">
+                            <div class="category">
+                                <span>PS5</span>
+                            </div>
+                            <div class="title-product">
+                                <h3>GOD OF WAR RAGNAROKK</h3>
+                            </div>
+                            <div class="description-prod">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius eos placeat ducimus
+                                    ipsam illum corporis vitae? Labore, eum, cupiditate? Exercitationem reprehenderit
+                                    velit est maiores amet quidem debitis dolores ad voluptatem.</p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="wcf-left"><span class="price">$1,500</span></div>
+                                <div class="wcf-right"><a href="#" class="buy-btn"><i
+                                            class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png"
+                                                width="60%"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="wsk-cp-product">
+                        <div class="wsk-cp-img"><img src="imagenes/images.jpg" alt="Product" class="img-responsive" />
+                        </div>
+                        <div class="wsk-cp-text">
+                            <div class="category">
+                                <span>Titulo</span>
+                            </div>
+                            <div class="title-product">
+                                <h3>Subtitulo</h3>
+                            </div>
+                            <div class="description-prod">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing, elit. Nulla recusandae
+                                    voluptatem, enim cumque eum animi dolorem. Hic, voluptatem numquam id, dolores
+                                    perferendis odit enim aut alias, est ipsa minima minus.</p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="wcf-left"><span class="price">$1,200</span></div>
+                                <div class="wcf-right"><a href="#" class="buy-btn"><i
+                                            class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png"
+                                                width="60%"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="wsk-cp-product">
+                        <div class="wsk-cp-img"><img src="imagenes/images.jpg" alt="Product" class="img-responsive" />
+                        </div>
+                        <div class="wsk-cp-text">
+                            <div class="category">
+                                <span>Titulo</span>
+                            </div>
+                            <div class="title-product">
+                                <h3>Subtitulo</h3>
+                            </div>
+                            <div class="description-prod">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus temporibus
+                                    assumenda, eaque. Quis temporibus magni laborum eligendi impedit qui, eaque quia
+                                    maiores, corrupti necessitatibus nemo sint tenetur, vero accusantium voluptas.</p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="wcf-left"><span class="price">$1250.00</span></div>
+                                <div class="wcf-right"><a href="#" class="buy-btn"><i
+                                            class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png"
+                                                width="60%"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="wsk-cp-product">
+                        <div class="wsk-cp-img"><img src="imagenes/images.jpg" alt="Product" class="img-responsive" />
+                        </div>
+                        <div class="wsk-cp-text">
+                            <div class="category">
+                                <span>Titulo</span>
+                            </div>
+                            <div class="title-product">
+                                <h3>Subtitulo</h3>
+                            </div>
+                            <div class="description-prod">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi similique, tempora
+                                    doloremque amet? Labore possimus quidem laborum ad sit atque dolorem quaerat
+                                    aliquam, illum vitae commodi odio totam doloribus dolore!</p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="wcf-left"><span class="price">$800.00</span></div>
+                                <div class="wcf-right"><a href="#" class="buy-btn"><i
+                                            class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png"
+                                                width="60%"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="wsk-cp-product">
+                        <div class="wsk-cp-img"><img src="imagenes/images.jpg" alt="Product" class="img-responsive" />
+                        </div>
+                        <div class="wsk-cp-text">
+                            <div class="category">
+                                <span>Titulo</span>
+                            </div>
+                            <div class="title-product">
+                                <h3>Subtitulo</h3>
+                            </div>
+                            <div class="description-prod">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi similique, tempora
+                                    doloremque amet? Labore possimus quidem laborum ad sit atque dolorem quaerat
+                                    aliquam, illum vitae commodi odio totam doloribus dolore!</p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="wcf-left"><span class="price">$800.00</span></div>
+                                <div class="wcf-right"><a href="#" class="buy-btn"><i
+                                            class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png"
+                                                width="60%"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-            <div class="title-product">
-              <h3>GOD OF WAR RAGNAROKK</h3>
-            </div>
-            <div class="description-prod">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius eos placeat ducimus ipsam illum corporis vitae? Labore, eum, cupiditate? Exercitationem reprehenderit velit est maiores amet quidem debitis dolores ad voluptatem.</p>
-            </div>
-            <div class="card-footer">
-              <div class="wcf-left"><span class="price">$1,500</span></div>
-              <div class="wcf-right"><a href="#" class="buy-btn"><i class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png" width="60%" ></i></a></div>
-            </div>
-          </div>
         </div>
-      </div>
-      <div class="col-md-3">
-        <div class="wsk-cp-product">
-          <div class="wsk-cp-img"><img src="imagenes/images.jpg" alt="Product" class="img-responsive" /></div>
-          <div class="wsk-cp-text">
-            <div class="category">
-              <span>Titulo</span>
-            </div>
-            <div class="title-product">
-              <h3>Subtitulo</h3>
-            </div>
-            <div class="description-prod">
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing, elit. Nulla recusandae voluptatem, enim cumque eum animi dolorem. Hic, voluptatem numquam id, dolores perferendis odit enim aut alias, est ipsa minima minus.</p>
-            </div>
-            <div class="card-footer">
-              <div class="wcf-left"><span class="price">$1,200</span></div>
-              <div class="wcf-right"><a href="#" class="buy-btn"><i class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png" width="60%" ></i></a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="wsk-cp-product">
-          <div class="wsk-cp-img"><img src="imagenes/images.jpg" alt="Product" class="img-responsive" /></div>
-          <div class="wsk-cp-text">
-            <div class="category">
-              <span>Titulo</span>
-            </div>
-            <div class="title-product">
-              <h3>Subtitulo</h3>
-            </div>
-            <div class="description-prod">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus temporibus assumenda, eaque. Quis temporibus magni laborum eligendi impedit qui, eaque quia maiores, corrupti necessitatibus nemo sint tenetur, vero accusantium voluptas.</p>
-            </div>
-            <div class="card-footer">
-              <div class="wcf-left"><span class="price">$1250.00</span></div>
-              <div class="wcf-right"><a href="#" class="buy-btn"><i class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png" width="60%" ></i></a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="wsk-cp-product">
-          <div class="wsk-cp-img"><img src="imagenes/images.jpg" alt="Product" class="img-responsive" /></div>
-          <div class="wsk-cp-text">
-            <div class="category">
-              <span>Titulo</span>
-            </div>
-            <div class="title-product">
-              <h3>Subtitulo</h3>
-            </div>
-            <div class="description-prod">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi similique, tempora doloremque amet? Labore possimus quidem laborum ad sit atque dolorem quaerat aliquam, illum vitae commodi odio totam doloribus dolore!</p>
-            </div>
-            <div class="card-footer">
-              <div class="wcf-left"><span class="price">$800.00</span></div>
-              <div class="wcf-right"><a href="#" class="buy-btn"><i class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png" width="60%" ></i></a></div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
-</div>
+
+
+
+    <div class="container text-center">
+        <div class="container">
+            <img src="imagenes\Nintendo-Logo-PNG-1.png" alt="" style="height:60px">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="wsk-cp-product">
+                        <div class="wsk-cp-img">
+                            <img src="imagenes/images.jpg" alt="Product" class="img-responsive" />
+                        </div>
+                        <div class="wsk-cp-text">
+                            <div class="category">
+                                <span>PS5</span>
+                            </div>
+                            <div class="title-product">
+                                <h3>GOD OF WAR RAGNAROKK</h3>
+                            </div>
+                            <div class="description-prod">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius eos placeat ducimus
+                                    ipsam illum corporis vitae? Labore, eum, cupiditate? Exercitationem reprehenderit
+                                    velit est maiores amet quidem debitis dolores ad voluptatem.</p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="wcf-left"><span class="price">$1,500</span></div>
+                                <div class="wcf-right"><a href="#" class="buy-btn"><i
+                                            class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png"
+                                                width="60%"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="wsk-cp-product">
+                        <div class="wsk-cp-img"><img src="imagenes/images.jpg" alt="Product" class="img-responsive" />
+                        </div>
+                        <div class="wsk-cp-text">
+                            <div class="category">
+                                <span>Titulo</span>
+                            </div>
+                            <div class="title-product">
+                                <h3>Subtitulo</h3>
+                            </div>
+                            <div class="description-prod">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing, elit. Nulla recusandae
+                                    voluptatem, enim cumque eum animi dolorem. Hic, voluptatem numquam id, dolores
+                                    perferendis odit enim aut alias, est ipsa minima minus.</p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="wcf-left"><span class="price">$1,200</span></div>
+                                <div class="wcf-right"><a href="#" class="buy-btn"><i
+                                            class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png"
+                                                width="60%"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="wsk-cp-product">
+                        <div class="wsk-cp-img"><img src="imagenes/images.jpg" alt="Product" class="img-responsive" />
+                        </div>
+                        <div class="wsk-cp-text">
+                            <div class="category">
+                                <span>Titulo</span>
+                            </div>
+                            <div class="title-product">
+                                <h3>Subtitulo</h3>
+                            </div>
+                            <div class="description-prod">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus temporibus
+                                    assumenda, eaque. Quis temporibus magni laborum eligendi impedit qui, eaque quia
+                                    maiores, corrupti necessitatibus nemo sint tenetur, vero accusantium voluptas.</p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="wcf-left"><span class="price">$1250.00</span></div>
+                                <div class="wcf-right"><a href="#" class="buy-btn"><i
+                                            class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png"
+                                                width="60%"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="wsk-cp-product">
+                        <div class="wsk-cp-img"><img src="imagenes/images.jpg" alt="Product" class="img-responsive" />
+                        </div>
+                        <div class="wsk-cp-text">
+                            <div class="category">
+                                <span>Titulo</span>
+                            </div>
+                            <div class="title-product">
+                                <h3>Subtitulo</h3>
+                            </div>
+                            <div class="description-prod">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi similique, tempora
+                                    doloremque amet? Labore possimus quidem laborum ad sit atque dolorem quaerat
+                                    aliquam, illum vitae commodi odio totam doloribus dolore!</p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="wcf-left"><span class="price">$800.00</span></div>
+                                <div class="wcf-right"><a href="#" class="buy-btn"><i
+                                            class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png"
+                                                width="60%"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="wsk-cp-product">
+                        <div class="wsk-cp-img"><img src="imagenes/images.jpg" alt="Product" class="img-responsive" />
+                        </div>
+                        <div class="wsk-cp-text">
+                            <div class="category">
+                                <span>Titulo</span>
+                            </div>
+                            <div class="title-product">
+                                <h3>Subtitulo</h3>
+                            </div>
+                            <div class="description-prod">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi similique, tempora
+                                    doloremque amet? Labore possimus quidem laborum ad sit atque dolorem quaerat
+                                    aliquam, illum vitae commodi odio totam doloribus dolore!</p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="wcf-left"><span class="price">$800.00</span></div>
+                                <div class="wcf-right"><a href="#" class="buy-btn"><i
+                                            class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png"
+                                                width="60%"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <?php include 'footer.php';?>

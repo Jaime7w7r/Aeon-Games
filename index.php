@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="estilos/index.css">
     <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="imagenes/logo.png">
+    <link rel="stylesheet" href="estilos/glitch.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 </head>
 
 <body style="background-color: black; ">
@@ -137,6 +139,12 @@
     </div>
   </div>
 </div>
+
+
+
+
+<a href="#" style="color:#01c4e7"><div class="glitch" data-text="CYBERPUNK" style="background-image: url('./imagenes/bannerCP.png');">CYBERPUNK</div></a>
+
 
 
 

@@ -6,3 +6,11 @@ sr.reveal('.logo_imagen',{
 	distance: '-100px',
     reset: true
 });
+
+sr.reveal('.mision',{
+	duration: 3000,
+	origin:'bottom',
+	distance: '-100px',
+    reset: true
+});
+

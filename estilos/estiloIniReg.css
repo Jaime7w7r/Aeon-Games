@@ -89,7 +89,7 @@ body{
 
 /*Efecto de boton al pasar el puntero*/
 .login-box input[type="submit"]:hover {
-  /background: #03e9f4;
+  background: #03e9f4;
   color: #03e9f4;;
   border-radius: 5px;
   box-shadow: 0 0 5px #03e9f4,

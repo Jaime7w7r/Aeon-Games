@@ -98,8 +98,8 @@
                 <a class="nav-link " href="ayuda.php">Ayuda</a>
             </li>
         </ul>
-        <button type="button" class="btn btn-outline-dark"><span class="login">Suscribete</span></button>
-        <button type="button" class="btn btn-outline-dark"><span class="login">Login</span></button>
+        <button onclick="location.href='RegisterForm.php'" type="button" class="btn btn-outline-dark"><span class="login">Suscribirse</span></button>
+        <button onclick="location.href='LogInForm.php'" type="button" class="btn btn-outline-dark"><span class="login">Login</span></button>
         <div>
             <a href=""><img src="imagenes\carrito.png" alt="" id="carrito"></a>
             <div id="add_icon"><span>1</span></div>
@@ -108,4 +108,6 @@
 </nav>
 
 <div id="aux_nav">
+
+
 </div>

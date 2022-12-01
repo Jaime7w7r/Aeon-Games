@@ -481,7 +481,6 @@ background: linear-gradient(0deg, rgba(200,88,137,0.9192051820728291) 7%, rgba(5
 
     <?php include 'footer.php';?>
 
-
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="javascript/main.js"></script>
     <script src="javascript\scroll.js"></script>

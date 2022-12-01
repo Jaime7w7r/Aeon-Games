@@ -1,6 +1,6 @@
 <?php
 // Varios destinatarios
-$para  = $_POST['emal'];
+$para  = $_POST['introducir_email'];
 // título
 $título = 'Contacto Aeon Games';
 
@@ -8,7 +8,7 @@ $título = 'Contacto Aeon Games';
 $mensaje = '<html>
 <head>
   <title>';
-$mensaje.=$_POST['nombre'];
+$mensaje.=$_POST['introducir_nombre'];
 
 $mensaje.=' gracias por contactarnos:</title>
 </head>
@@ -29,6 +29,7 @@ $cabeceras .= 'From: Contacto <al299459@edu.uaa.mx>' . "\r\n";
 $success = mail($para, $título, $mensaje, $cabeceras);
 if (!$success) {
     $errorMessage = error_get_last()['message'];
+    echo 'mensaje no enviado';
 }else{
     echo 'correo enviado';
 }

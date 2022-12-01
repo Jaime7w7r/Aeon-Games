@@ -33,9 +33,7 @@ indique que su solicitud está siendo procesada.*/ ?>
                 <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
 
 
-                <form action="correo.php" method="post">
-
-
+                <form action="correo.php" method="POST">
                     <p>
                         <label for="nombre" class="colocar_nombre">Nombre
                             <span class="obligatorio">*</span>
@@ -75,9 +73,7 @@ indique que su solicitud está siendo procesada.*/ ?>
                             placeholder="Deja aquí tu comentario..."></textarea>
                     </p>
 
-                    <button type="submit" name="enviar_formulario" id="enviar">
-                        <p>Enviar</p>
-                    </button>
+                    <input type="submit" name="enviar_formulario" id="enviar"  value="Enviar">
 
                     <p class="aviso">
                         <span class="obligatorio"> * </span>los campos son obligatorios.

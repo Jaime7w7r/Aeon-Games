@@ -20,16 +20,18 @@ include('main/headerSesionCapt.php');
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="estilos/estiloIniReg.css">
+    <link rel="stylesheet" href="estilos/estiloIniReg1.css">
 
     <title></title>
 
 
 </head>
 
-<body>
+<body background='imagenes\chicas-gamer.jpg'>
     <div class="login-box" id="resp">
-    	<h2>Iniciar sesion</h2>
+    <div id="logo_div"><a href="index.php"><img id="img" src="imagenes\logo.png" alt=""></a>
+            <h2>Inicio de Sesion</h2>
+        </div>
         <form action="LogIn.php" method="POST" id="formu">
             <div class="user-box">
                 <input type="text" name="Email" value="<?php if(isset($_COOKIE["Email"])) { echo $_COOKIE["Email"]; } ?>" required>

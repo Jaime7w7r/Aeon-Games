@@ -1,5 +1,5 @@
 <?php
-require_once 'basedatos.php';
+//require_once 'basedatos.php';
 if(isset($_POST)){
 $Id='null';
 $Name=$_POST['Name'];

@@ -12,7 +12,8 @@
     <script src="javascript\scrollreveal.js"></script>
     
 </head>
-<body>
+<body style='background: rgb(131,58,180);
+background: linear-gradient(148deg, rgba(131,58,180,0.9332107843137255) 0%, rgba(255,255,255,1) 76%);'>
 <?php include 'header.php';?>
 
 <div class="card bg-dark text-white">
@@ -23,7 +24,8 @@
 </div>
 <br>
 
-<div class="card mb-3" style="max-width: 90%;">
+<div class="card mb-3 car" style="max-width: 90%;   background-color: rgba(253, 253, 253, 0.15);  
+  backdrop-filter: blur(5px);">
   <div class="row no-gutters">
     <div class="col-md-3">
       <img src="imagenes\mision.png" alt="..." style="width: 70%;"  class="img">
@@ -37,7 +39,8 @@
   </div>
 </div>
 
-<div class="card mb-3" style="max-width: 80%;">
+<div class="card mb-3" style="max-width: 80%;   background-color: rgba(253, 253, 253, 0.15);  
+  backdrop-filter: blur(5px);">
   <div class="row no-gutters">
     <div class="col-md-3">
       <img src="imagenes\objetivo.png" alt="..." style="max-width: 80%;"  class="img">
@@ -51,7 +54,8 @@
   </div>
 </div>
 
-<div class="card mb-3" style="max-width: 70%;">
+<div class="card mb-3" style="max-width: 70%;   background-color: rgba(253, 253, 253, 0.15);  
+  backdrop-filter: blur(5px);">
   <div class="row no-gutters">
     <div class="col-md-4">
       <img src="imagenes\vision.png" alt="..." style="max-width: 80%;" class="img">

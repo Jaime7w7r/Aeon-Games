@@ -1,10 +1,30 @@
 .glitch {
   color: white;
   font-size: 100px;
-  position: relative;
   width: 1000px;
-  height: 400px;;
+  height: 400px;
+
+  
+}
+
+.glitch_contenedor{
+  width: 1050px;
+  height: 450px;
+  background-color: rgba(253, 253, 253, 0.15);  
+  backdrop-filter: blur(5px);
   margin: 0 auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+
+}
+
+
+.wsk-cp-product{
+  background-color: rgba(253, 253, 253, 0.15);  
+  backdrop-filter: blur(5px);
 }
 
 @keyframes noise-anim {

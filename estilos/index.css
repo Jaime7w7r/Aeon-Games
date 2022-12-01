@@ -7,6 +7,7 @@
  body {
    overflow-x: hidden;
    font-family: 'Syne Mono', monospace;
+   background-color: #000000af;
  
  }
  .container{

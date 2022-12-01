@@ -1,6 +1,5 @@
-<?php /*Contáctanos (formulario con buen diseño), uso de google maps, datos de dirección, etc.
-Cuando un usuario use el formulario de contacto del sitio web, debe recibir un correo que le
-indique que su solicitud está siendo procesada.*/ ?>
+<?php /*Ayuda (Preguntas frecuentes, presentar las preguntas con un buen diseño, se esperan al menos
+6 preguntas)*/ ?>
 
 <!DOCTYPE html>
 <html lang="en">

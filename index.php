@@ -15,7 +15,8 @@
     <script src="javascript\scrollreveal.js"></script>
 </head>
 
-<body style="background: rgb(200,88,137);
+<body
+    style="background: rgb(200,88,137);
 background: linear-gradient(0deg, rgba(200,88,137,0.9192051820728291) 7%, rgba(57,190,99,0.9332107843137255) 48%, rgba(24,99,186,1) 100%); ">
 
     <?php include 'header.php';?>
@@ -54,7 +55,8 @@ background: linear-gradient(0deg, rgba(200,88,137,0.9192051820728291) 7%, rgba(5
     <!-- Articulos -->
     <div class="container text-center">
         <div class="container">
-            <img class="logo_imagen" src="imagenes\2560px-PlayStation_logo_and_wordmark.svg.png" alt="" style="height:40px">
+            <img class="logo_imagen" src="imagenes\2560px-PlayStation_logo_and_wordmark.svg.png" alt=""
+                style="height:40px">
             <div class="row">
                 <div class="col-md-3">
                     <div class="wsk-cp-product">

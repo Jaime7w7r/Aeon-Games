@@ -24,6 +24,7 @@ section {
   text-align: left;
   font: normal 16px sans-serif;
   padding: 45px 50px;
+  position: static;
 }
 
 .footer-distributed .footer-left p {

@@ -12,6 +12,7 @@
     <link rel="shortcut icon" href="imagenes/logo.png">
     <link rel="stylesheet" href="estilos/glitch.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <script src="javascript\scrollreveal.js"></script>
 </head>
 
 <body style="background: rgb(200,88,137);
@@ -53,7 +54,7 @@ background: linear-gradient(0deg, rgba(200,88,137,0.9192051820728291) 7%, rgba(5
     <!-- Articulos -->
     <div class="container text-center">
         <div class="container">
-            <img src="imagenes\2560px-PlayStation_logo_and_wordmark.svg.png" alt="" style="height:40px">
+            <img class="logo_imagen" src="imagenes\2560px-PlayStation_logo_and_wordmark.svg.png" alt="" style="height:40px">
             <div class="row">
                 <div class="col-md-3">
                     <div class="wsk-cp-product">
@@ -202,7 +203,7 @@ background: linear-gradient(0deg, rgba(200,88,137,0.9192051820728291) 7%, rgba(5
 
     <div class="container text-center">
         <div class="container">
-            <img src="imagenes\1200px-XBOX_logo_2012.svg.png" alt="" style="height:40px">
+            <img class="logo_imagen" src="imagenes\1200px-XBOX_logo_2012.svg.png" alt="" style="height:40px">
             <div class="row">
                 <div class="col-md-3">
                     <div class="wsk-cp-product">
@@ -343,7 +344,7 @@ background: linear-gradient(0deg, rgba(200,88,137,0.9192051820728291) 7%, rgba(5
 
     <div class="container text-center">
         <div class="container">
-            <img src="imagenes\Nintendo-Logo-PNG-1.png" alt="" style="height:60px">
+            <img class="logo_imagen" src="imagenes\Nintendo-Logo-PNG-1.png" alt="" style="height:60px">
             <div class="row">
                 <div class="col-md-3">
                     <div class="wsk-cp-product">
@@ -481,7 +482,7 @@ background: linear-gradient(0deg, rgba(200,88,137,0.9192051820728291) 7%, rgba(5
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="javascript/main.js"></script>
-
+    <script src="javascript\scroll.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>

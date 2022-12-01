@@ -12,7 +12,7 @@ if ( isset($_POST['captcha1']) && ($_POST['captcha1']!="")){
 }
 include('main/headerSesionCapt.php');
 ?>
-<script src="js/load_captcha.js"></script>
+<script src="javascript\load_captcha.js"></script>
 
 <html>
 

@@ -28,6 +28,20 @@ window.addEventListener("scroll", function(){
     h.classList.toggle("desparecer", window.scrollY>450);
 })
 
+if(window.location.pathname=='/curso/Aeon-Games/contacto.php'){ // '/contacto.php'
+	window.addEventListener("scroll", function(){
+		var h = document.getElementById("nav");
+		h.classList.toggle("desparecer", window.scrollY>75);
+	})
+}
+
+if(window.location.pathname=='/curso/Aeon-Games/AcercaDe.php'){
+	window.addEventListener("scroll", function(){
+		var h = document.getElementById("nav");
+		h.classList.toggle("desparecer", window.scrollY>370);
+	})
+}
+
 
 
 var swiper = new Swiper('.swiper-container', {

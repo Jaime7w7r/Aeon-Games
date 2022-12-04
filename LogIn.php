@@ -16,11 +16,9 @@ if(isset($_POST)){
             $Verify=password_verify($Password,$Usuario->Password);
             if($Verify){
                 $_SESSION['User']=$Usuario->Email;
-                var_dump([$_SESSION['User']]);
-                echo "<br> captcha correcto <br>";
-                echo "<a href='cerrarSesion.php'>Cerrar Sesion</a>";
+                header('Location: index.php');
             }else{
-                echo 'No Inicio de sesion';
+                header('Location: LogIn.php');
             }
         }
     }else if($captchaCookie != sha1($captcha)){

@@ -188,7 +188,7 @@ Experimenta cargas super rápidas gracias a una unidad de estado sólido (SSD) d
     <div class="glitch_contenedor">
         <a href="#" style="color:#01c4e7">
             <div class="glitch" data-text="CYBERPUNK" style="background-image: url('./imagenes/bannerCP.png');">
-                CYBERPUNK
+               <label style="left: 0px; top:-2px; position: absolute;">CYBERPUNK</label>
             </div>
         </a>
     </div>
@@ -409,8 +409,9 @@ La Xbox Series X ofrece velocidades de cuadro sensacionalmente suaves de hasta 1
                 </div>
                 <div class="col-md-3">
                     <div class="wsk-cp-product">
-                        <div class="wsk-cp-img"><img src="imagenes/Juegos/ConsolaNSW.jpg" alt="Product" class="img-responsive" />
+                        <div class="wsk-cp-img"><img src="imagenes/Juegos/ConsoleNSW.jpg" alt="Product" class="img-responsive" />
                         </div>
+                        <br><br>
                         <div class="wsk-cp-text">
                             <div class="category">
                                 <span>NINTENDO SWITCH</span>

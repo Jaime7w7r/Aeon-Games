@@ -8,7 +8,11 @@ las dos categorías.*/ ?>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
     <!--<meta http-equiv="refresh" content="2">--> 
+=======
+    <!--<meta http-equiv="refresh" content="2">-->
+>>>>>>> a12f96af80464bb8e93ae7cbedcb7088be8ac69f
     <link rel="shortcut icon" href="imagenes/logo.png">
     <link rel="stylesheet" href="estilos/tienda.css">
     <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">

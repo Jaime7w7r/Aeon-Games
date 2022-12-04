@@ -8,10 +8,12 @@ las dos categorías.*/ ?>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<meta http-equiv="refresh" content="2">-->
     <link rel="shortcut icon" href="imagenes/logo.png">
     <title>Aeon Games</title>
 </head>
-<body>
+<body style="background: rgb(11,4,14);
+background: linear-gradient(0deg, rgba(11,4,14,0.7763480392156863) 22%, rgba(142,118,240,0.7343312324929971) 71%);">
 <?php include 'header.php';?>
 
 <pre>

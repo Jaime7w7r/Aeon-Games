@@ -2,6 +2,7 @@
 if(isset($_POST['enviar'])){
     if($_POST['Password']==$_POST['Password2']){
         include('Register.php');
+        $contraseña_incorrecta="";
     }else{
         $contraseña_incorrecta = 'Las contraseñas no son iguales';
     }

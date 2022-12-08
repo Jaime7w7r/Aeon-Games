@@ -188,7 +188,7 @@ body{
   font-weight:bold;
 }
 
-a.buy-btn{
+button.buy-btn{
   display:block;
   color:#212121;
   text-align:center;
@@ -200,7 +200,7 @@ a.buy-btn{
   border:1px solid #212121;
   transition: all 0.2s ease-in-out;
 }
-a.buy-btn:hover , a.buy-btn:active, a.buy-btn:focus{
+button.buy-btn:hover , button.buy-btn:active, button.buy-btn:focus{
   border-color: #FF9800;
   background: #0D88BB;
   color: #fff;
@@ -246,7 +246,7 @@ a.buy-btn:hover , a.buy-btn:active, a.buy-btn:focus{
 .wsk-cp-product .wsk-cp-text .category{
   margin-top: 0px;
 }
-a.buy-btn{
+button.buy-btn{
   border-color: #FF9800;
   background: #FF9800;
   color: #fff;

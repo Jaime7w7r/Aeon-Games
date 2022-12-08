@@ -1,4 +1,17 @@
 {
-	"folders": [],
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../altas_bajas_consultas_modificacion_prueba"
+		},
+		{
+			"path": "../Aeon-Games-master"
+		},
+		{
+			"path": "../Node"
+		}
+	],
 	"settings": {}
 }

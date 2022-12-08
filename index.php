@@ -75,9 +75,9 @@ background: linear-gradient(0deg, rgba(200,88,137,0.9192051820728291) 7%, rgba(5
                             </div>
                             <div class="card-footer">
                                 <div class="wcf-left"><span class="price">$1,500.00</span></div>
-                                <div class="wcf-right"><a href="#" class="buy-btn"><i
+                                <div class="wcf-right"><button href="#" class="buy-btn"><i
                                             class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png"
-                                                width="60%"></i></a></div>
+                                                width="60%"></i></button></div>
                             </div>
                         </div>
                     </div>
@@ -100,9 +100,9 @@ Experimenta cargas super rápidas gracias a una unidad de estado sólido (SSD) d
                             </div>
                             <div class="card-footer">
                                 <div class="wcf-left"><span class="price">$15,000.00</span></div>
-                                <div class="wcf-right"><a href="#" class="buy-btn"><i
+                                <div class="wcf-right"><button href="#" class="buy-btn"><i
                                             class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png"
-                                                width="60%"></i></a></div>
+                                                width="60%"></i></button></div>
                             </div>
                         </div>
                     </div>
@@ -123,9 +123,9 @@ Experimenta cargas super rápidas gracias a una unidad de estado sólido (SSD) d
                             </div>
                             <div class="card-footer">
                                 <div class="wcf-left"><span class="price">$1,300.00</span></div>
-                                <div class="wcf-right"><a href="#" class="buy-btn"><i
+                                <div class="wcf-right"><button href="#" class="buy-btn"><i
                                             class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png"
-                                                width="60%"></i></a></div>
+                                                width="60%"></i></button></div>
                             </div>
                         </div>
                     </div>
@@ -147,9 +147,9 @@ Experimenta cargas super rápidas gracias a una unidad de estado sólido (SSD) d
                             </div>
                             <div class="card-footer">
                                 <div class="wcf-left"><span class="price">$1,300.00</span></div>
-                                <div class="wcf-right"><a href="#" class="buy-btn"><i
+                                <div class="wcf-right"><button href="#" class="buy-btn"><i
                                             class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png"
-                                                width="60%"></i></a></div>
+                                                width="60%"></i></button></div>
                             </div>
                         </div>
                     </div>
@@ -171,9 +171,9 @@ Experimenta cargas super rápidas gracias a una unidad de estado sólido (SSD) d
                             </div>
                             <div class="card-footer">
                                 <div class="wcf-left"><span class="price">$1,290.00</span></div>
-                                <div class="wcf-right"><a href="#" class="buy-btn"><i
+                                <div class="wcf-right"><button href="#" class="buy-btn"><i
                                             class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png"
-                                                width="60%"></i></a></div>
+                                                width="60%"></i></button></div>
                             </div>
                         </div>
                     </div>
@@ -186,11 +186,11 @@ Experimenta cargas super rápidas gracias a una unidad de estado sólido (SSD) d
 
 
     <div class="glitch_contenedor">
-        <a href="#" style="color:#01c4e7">
+        <button href="#" style="color:#01c4e7">
             <div class="glitch" data-text="CYBERPUNK" style="background-image: url('./imagenes/bannerCP.png');">
                <label style="left: 0px; top:-2px; position: absolute;">CYBERPUNK</label>
             </div>
-        </a>
+        </button>
     </div>
 
 
@@ -216,9 +216,9 @@ Experimenta cargas super rápidas gracias a una unidad de estado sólido (SSD) d
                             </div>
                             <div class="card-footer">
                                 <div class="wcf-left"><span class="price">$800.00</span></div>
-                                <div class="wcf-right"><a href="#" class="buy-btn"><i
+                                <div class="wcf-right"><button href="#" class="buy-btn"><i
                                             class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png"
-                                                width="60%"></i></a></div>
+                                                width="60%"></i></button></div>
                             </div>
                         </div>
                     </div>
@@ -240,9 +240,9 @@ Experimenta cargas super rápidas gracias a una unidad de estado sólido (SSD) d
                             </div>
                             <div class="card-footer">
                                 <div class="wcf-left"><span class="price">$600.00</span></div>
-                                <div class="wcf-right"><a href="#" class="buy-btn"><i
+                                <div class="wcf-right"><button href="#" class="buy-btn"><i
                                             class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png"
-                                                width="60%"></i></a></div>
+                                                width="60%"></i></button></div>
                             </div>
                         </div>
                     </div>
@@ -268,9 +268,9 @@ La Xbox Series X ofrece velocidades de cuadro sensacionalmente suaves de hasta 1
                             </div>
                             <div class="card-footer">
                                 <div class="wcf-left"><span class="price">$14,000.00</span></div>
-                                <div class="wcf-right"><a href="#" class="buy-btn"><i
+                                <div class="wcf-right"><button href="#" class="buy-btn"><i
                                             class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png"
-                                                width="60%"></i></a></div>
+                                                width="60%"></i></button></div>
                             </div>
                         </div>
                     </div>
@@ -292,9 +292,9 @@ La Xbox Series X ofrece velocidades de cuadro sensacionalmente suaves de hasta 1
                             </div>
                             <div class="card-footer">
                                 <div class="wcf-left"><span class="price">$1,800.00</span></div>
-                                <div class="wcf-right"><a href="#" class="buy-btn"><i
+                                <div class="wcf-right"><button href="#" class="buy-btn"><i
                                             class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png"
-                                                width="60%"></i></a></div>
+                                                width="60%"></i></button></div>
                             </div>
                         </div>
                     </div>
@@ -316,9 +316,9 @@ La Xbox Series X ofrece velocidades de cuadro sensacionalmente suaves de hasta 1
                             </div>
                             <div class="card-footer">
                                 <div class="wcf-left"><span class="price">$1,500.00</span></div>
-                                <div class="wcf-right"><a href="#" class="buy-btn"><i
+                                <div class="wcf-right"><button href="#" class="buy-btn"><i
                                             class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png"
-                                                width="60%"></i></a></div>
+                                                width="60%"></i></button></div>
                             </div>
                         </div>
                     </div>
@@ -352,9 +352,9 @@ La Xbox Series X ofrece velocidades de cuadro sensacionalmente suaves de hasta 1
                             </div>
                             <div class="card-footer">
                                 <div class="wcf-left"><span class="price">$1,400.00</span></div>
-                                <div class="wcf-right"><a href="#" class="buy-btn"><i
+                                <div class="wcf-right"><button href="#" class="buy-btn"><i
                                             class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png"
-                                                width="60%"></i></a></div>
+                                                width="60%"></i></button></div>
                             </div>
                         </div>
                     </div>
@@ -376,9 +376,9 @@ La Xbox Series X ofrece velocidades de cuadro sensacionalmente suaves de hasta 1
                             </div>
                             <div class="card-footer">
                                 <div class="wcf-left"><span class="price">$1,200</span></div>
-                                <div class="wcf-right"><a href="#" class="buy-btn"><i
+                                <div class="wcf-right"><button href="#" class="buy-btn"><i
                                             class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png"
-                                                width="60%"></i></a></div>
+                                                width="60%"></i></button></div>
                             </div>
                         </div>
                     </div>
@@ -396,13 +396,13 @@ La Xbox Series X ofrece velocidades de cuadro sensacionalmente suaves de hasta 1
                                 <h3>SUPER MARIO ODYSSEY</h3>
                             </div>
                             <div class="description-prod">
-                                <p>Acompaña a Mario en una aventura en 3D enorme por todo el planeta usando sus nuevas habilidades para recoger lunas que servirán de combustible a tu aeronave, la Odyssey. ¡Y entretanto, rescata a la princesa Peach de las garras de Bowser. </p>
+                                <p>Acompaña button Mario en una aventura en 3D enorme por todo el planeta usando sus nuevas habilidades para recoger lunas que servirán de combustible a tu aeronave, la Odyssey. ¡Y entretanto, rescata a la princesa Peach de las garras de Bowser. </p>
                             </div>
                             <div class="card-footer">
                                 <div class="wcf-left"><span class="price">$1,290.00</span></div>
-                                <div class="wcf-right"><a href="#" class="buy-btn"><i
+                                <div class="wcf-right"><button href="#" class="buy-btn"><i
                                             class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png"
-                                                width="60%"></i></a></div>
+                                                width="60%"></i></button></div>
                             </div>
                         </div>
                     </div>
@@ -424,9 +424,9 @@ La Xbox Series X ofrece velocidades de cuadro sensacionalmente suaves de hasta 1
                             </div>
                             <div class="card-footer">
                                 <div class="wcf-left"><span class="price">$7,000.00</span></div>
-                                <div class="wcf-right"><a href="#" class="buy-btn"><i
+                                <div class="wcf-right"><button href="#" class="buy-btn"><i
                                             class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png"
-                                                width="60%"></i></a></div>
+                                                width="60%"></i></button></div>
                             </div>
                         </div>
                     </div>
@@ -448,9 +448,9 @@ La Xbox Series X ofrece velocidades de cuadro sensacionalmente suaves de hasta 1
                             </div>
                             <div class="card-footer">
                                 <div class="wcf-left"><span class="price">$1,300.00</span></div>
-                                <div class="wcf-right"><a href="#" class="buy-btn"><i
+                                <div class="wcf-right"><button href="#" class="buy-btn"><i
                                             class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png"
-                                                width="60%"></i></a></div>
+                                                width="60%"></i></button></div>
                             </div>
                         </div>
                     </div>

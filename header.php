@@ -42,7 +42,6 @@
     width: 100%;
     z-index: 100;
     position: fixed;
-    height: 70px;
 }
 
 .abajo {
@@ -56,7 +55,7 @@
 }
 
 #aux_nav {
-    height: 70px;
+    height: 95px;
     position: relative;
     background-color: rgba(95, 36, 36, 0.445);
 }

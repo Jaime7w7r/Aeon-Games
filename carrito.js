@@ -12,3 +12,13 @@ function subir(producto){
     xmlhttp.open("GET", "addcarrito.php?q=" + producto, true);
     xmlhttp.send();
 }
+
+function eliminar(id){
+    var indice = parseInt(id);
+    console.log(array[indice]);
+    producto = array[indice];
+    var xmlhttp = new XMLHttpRequest();
+   xmlhttp.open("GET", "eliminarcarrito.php?e=" + producto, true);
+   xmlhttp.send();
+}
+

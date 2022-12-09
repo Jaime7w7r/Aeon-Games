@@ -100,7 +100,7 @@
         <button onclick="location.href='RegisterForm.php'" type="button" class="btn btn-outline-dark"><span class="login">Suscribirse</span></button>
         <button onclick="location.href='LogInForm.php'" type="button" class="btn btn-outline-dark"><span class="login">Login</span></button>
         <div>
-            <a href=""><img src="imagenes\carrito.png" alt="" id="carrito"></a>
+            <a href="carrito.php"><img src="imagenes\carrito.png" alt="" id="carrito"></a>
             <div id="add_icon"><span>1</span></div>
         </div>
     </div>

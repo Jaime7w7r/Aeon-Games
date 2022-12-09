@@ -106,6 +106,7 @@ background: linear-gradient(0deg, rgba(11,4,14,0.7763480392156863) 22%, rgba(142
             ?>
                 <script>
                 array.push("<?php echo $nombre ?>");
+                console.log(array);
                 </script>
 
                 <div class="position-fixed bottom-0 right-0 p-3" style="z-index: 5; right: 0; bottom: 0;">

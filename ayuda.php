@@ -15,7 +15,7 @@
 
 <body>
     <?php include 'header.php'; ?>
-    <div class="preguntasF">
+    <div class="Hoja"><div class="preguntasF">
         <h5>¿Cuánto tiempo tarda en llegar mi pedido?</h5>
         <p>Los pedidos efectuados en la ciudad de Aguascalientes son enviados el mismo día que se realizan, siempre y cuando:
             *El producto se encuentre fisicamente en alguna de la sucursales de Aguascalientes.
@@ -31,11 +31,12 @@
         <p>Acércate a tu tienda Gameplanet favorita. Ahí te podrán decir el monto que te abonaremos por tu juego. El precio de compra de tu juego es asignado de manera automática. Puedes llamar a nuestras sucursales vía telefónica para preguntar más detalles. Los números telefónicos los puedes encontrar en la sección de sucursales y horarios de este mismo sitio.</p>
         <h5>¿Me reciben consolas o accesorios?</h5>
         <p>Por el momento no pero no descartamos la posibilidad de hacerlo en el futuro. Mantente al pendiente de nuestro sitio para más información.</p>
-    </div>rec
+    </div>
+    
     <div class="Formulario"><form action="ayuda.php" method="post">
-        <input type="text" placeholder="nombre" name="name"><br>
-        <textarea name="pregunta" id="" cols="30" rows="10"></textarea><br>
-        <button type="submit" value="enviar" name="enviar">Enviar</button>
+        <input type="text" placeholder="Nombre" name="name"><br>
+        <textarea name="pregunta" placeholder="Pregunta" id="" cols="30" rows="2"></textarea><br>
+        <button id="BOTON" type="submit" value="enviar" name="enviar">Enviar</button>
         <br>
     </form></div>
     <div class="ASQ"><?php
@@ -43,7 +44,7 @@
         echo $_POST['name'] . '<br>';
         echo $_POST['pregunta'] . '<br>';
     }
-    echo "</div>";
+    echo "</div></div>";
 
     include 'footer.php'; ?>
 

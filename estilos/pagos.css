@@ -1,0 +1,31 @@
+.btn-pago{
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	
+
+}
+
+.btn-pago > input{
+	width: 350px;
+	padding: 10px;
+	border-radius:10px ;
+	border-color: transparent;
+}
+
+
+.btn-pago .btn1{
+	background-color: darkgrey;
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.btn-pago .btn2{
+	background-color: yellow;
+	color: red;
+	font-size: 15px;
+	font-weight: bold;
+
+}
+

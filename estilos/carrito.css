@@ -1,0 +1,49 @@
+.buttonmas {
+  width: 30px;
+  font-family: Arial;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 28px;
+  box-shadow: 0px 1px 3px #666666;
+  text-shadow: 1px 1px 3px #666666;
+  border: solid #ffffff 2px;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#17a3b8), to(#1ea3c8));
+  background: -moz-linear-gradient(top, #17a3b8, #1ea3c8);
+}
+.buttonmas:hover {
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#999999), to(#000000));
+}
+
+.buttonmenos {
+  width: 30px;
+  font-family: Arial;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 28px;
+  box-shadow: 0px 1px 3px #666666;
+  text-shadow: 1px 1px 3px #666666;
+  border: solid #ffffff 2px;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#DB3545), to(#D22435));
+  background: -moz-linear-gradient(top, #DB3545, #D22435);
+}
+.buttonmenos:hover {
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#000000), to(#999999));
+}
+
+.botones {
+    display: flex;
+    flex-direction: column;
+    style="padding: 0;"
+    }
+
+.buttonmas {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    }
+
+.buttonmenos{
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    }

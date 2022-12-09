@@ -16,6 +16,7 @@ $conexion = new mysqli($servidor,$cuenta,$password,$bd);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagenes/logo.png">
     <script src="carrito.js"></script>
+    <link rel="stylesheet" href="estilos/carrito.css">
     <title>Aeon Games</title>
 </head>
 
@@ -45,26 +46,28 @@ $conexion = new mysqli($servidor,$cuenta,$password,$bd);
             array.push("<?php echo $nombre_carrito ?>");
             console.log(array);
             </script>
+            <hr>
 
-            <div class="card mb-3" style="max-width: 540px;">
-                <div class="row no-gutters">
-                    <div class="col-md-4">
-                        <img src="imagenes\Juegos\<?php echo $imagen ?>" style="width:165px;height:180px;" alt="...">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title"><?php echo $nombre_carrito ?></h5>
-                            <h6>Cantidad: <?php echo $cantidad ?> </h6>
-                            <h6>Subtotal:$ <?php echo ($cantidad * $precio) ?> </h6>
-                            <button type="button" class="btn btn-info" id="<?php echo $numPro ?>"
-                            onclick="agregar(this.id);recargar();" <?php if($existencia<=$cantidad){echo 'disabled'; } ?>>Agregar</button>
-                            <button type="button" id="<?php echo $numPro ?>" class="btn btn-danger" 
-                            onclick="eliminar(this.id);recargar();">Eliminar</button>
+    <div class="container" style="margin-bottom: 15px;">
+  <div class="row"   style="margin: 0 auto;">
+    <div class=" col col-md-1 col-xl-1" style="padding: 0;">
+      <img src="imagenes\Juegos\<?php echo $imagen ?>" style="width:90%; alt="...">
+    </div>
+    <div class="col col col-md-10 col-xl-4" style="min-width: 250px; padding: 0;">
+      <h5><?php echo $nombre_carrito ?></h5>
+      <h6>Cantidad: <?php echo $cantidad ?> </h6>
+      <h6>Subtotal:$ <?php echo ($cantidad * $precio) ?> </h6>
+    </div>
+    <div class="col col-md-1 col-xl-1" style="padding: 0;">
+        <div class="botones">
+            <button type="button" class="buttonmas" id="<?php echo $numPro ?>"onclick="agregar(this.id);recargar();" <?php if($existencia<=$cantidad){echo 'disabled'; } ?>>˄</button>
+            <button type="button" id="<?php echo $numPro ?>" class="buttonmenos"onclick="eliminar(this.id);recargar();">˅</button>
+        </div>
+    </div>
+  </div>
+</div>
+<hr>
 
-                        </div>
-                    </div>
-                </div>
-            </div>
 
     <?php
         $total = $total + ($cantidad * $precio);
@@ -76,6 +79,7 @@ $conexion = new mysqli($servidor,$cuenta,$password,$bd);
     <?php
         }//fin while productos
     ?>
+    <button type="button">Pagar</button>
     <?php 
     include 'footer.php';?>
         <script>

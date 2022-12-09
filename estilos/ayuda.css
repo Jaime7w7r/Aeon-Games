@@ -1,0 +1,68 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: linear-gradient(#141e30, #243b55);
+}
+
+h5{
+    color:aliceblue;
+}
+
+p{
+    color:aliceblue;
+	margin: 30px;
+}
+
+.preguntasF{
+	margin: 10vh auto;
+	width: 95vh;
+}
+.Formulario{
+	margin: 10vh auto;
+	width: 95vh;
+	margin-top: -50px;
+}
+
+.ASQ{
+	margin: 10vh auto;
+	width: 95vh;
+	color: aliceblue;
+	margin-top: -40px;
+
+}
+
+.Formulario, form, input,textarea{
+	border-radius: 15px 15px 0px 15px;
+}
+
+.Formulario #BOTON{
+	border-radius: 15px;
+	background: transparent;
+	border: 1px solid#fff;
+	color: #fff;
+	cursor: pointer;
+
+}
+#BOTON:hover {background-color: rgba(255, 255, 255, 0.24)}
+
+#BOTON:active {
+	box-shadow: 0 5px rgb(197, 196, 196);
+	background-color: rgba(255, 255, 255, 0.397);
+	transform: translateY(4px);
+  }
+
+::placeholder {
+	color: gray;
+	padding-left: 50px;
+}
+
+.Formulario textarea{
+	margin-top: 5px;
+}
+
+.Hoja{
+	background-color: rgba(255, 255, 255, 0.356);
+	width: 95vh;
+	margin: 0px auto;
+}

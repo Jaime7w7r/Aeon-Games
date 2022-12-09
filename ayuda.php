@@ -13,51 +13,6 @@
 </head>
 <body>
 <?php include 'header.php';?>
-
-<pre>
-    
-    Lorem ipsum dolor sit amet 
-    consectetur adipisicing elit.
-     Exercitationem tempora 
-     reprehenderit ad, eum 
-     aspernatur veritatis
-      animi ipsam suscipit
-       ullam ipsa sapiente
-        vero, cumque fugiat
-         sit impedit dolore 
-         officiis voluptatibus.
-          Nam.
-
-
-
-          Lorem ipsum dolor sit amet 
-    consectetur adipisicing elit.
-     Exercitationem tempora 
-     reprehenderit ad, eum 
-     aspernatur veritatis
-      animi ipsam suscipit
-       ullam ipsa sapiente
-        vero, cumque fugiat
-         sit impedit dolore 
-         officiis voluptatibus.
-          Nam.
-
-
-
-
-
-          Lorem ipsum dolor sit amet 
-    consectetur adipisicing elit.
-     Exercitationem tempora 
-     reprehenderit ad, eum 
-     aspernatur veritatis
-      animi ipsam suscipit
-       ullam ipsa sapiente
-        vero, cumque fugiat
-         sit impedit dolore 
-         officiis voluptatibus.
-          Nam.
-</pre>
 <h5>¿Cuánto tiempo tarda en llegar mi pedido?</h5>
 <p>Los pedidos efectuados en la ciudad de Aguascalientes son enviados el mismo día que se realizan, siempre y cuando:
 *El producto se encuentre fisicamente en alguna de la sucursales de Aguascalientes.
@@ -73,7 +28,19 @@ En localidades fuera de Aguascalientes, así como otros en estados dentro de la 
 <p>Acércate a tu tienda Gameplanet favorita. Ahí te podrán decir el monto que te abonaremos por tu juego. El precio de compra de tu juego es asignado de manera automática. Puedes llamar a nuestras sucursales vía telefónica para preguntar más detalles. Los números telefónicos los puedes encontrar en la sección de sucursales y horarios de este mismo sitio.</p>
 <h5>¿Me reciben consolas o accesorios?</h5>
 <p>Por el momento no pero no descartamos la posibilidad de hacerlo en el futuro. Mantente al pendiente de nuestro sitio para más información.</p>
-<?php include 'footer.php';?>
+
+<form action="ayuda.php" method="post">
+    <input type="text" placeholder="nombre" name="name"><br>
+    <textarea name="pregunta" id="" cols="30" rows="10"></textarea><br>
+    <button type="submit" value="enviar" name="enviar">Enviar</button>
+    <br>
+</form>
+<?php 
+if(isset($_POST['enviar'])){
+    echo $_POST['name'].'<br>';
+    echo $_POST['pregunta'].'<br>';
+}
+include 'footer.php';?>
     
 </body>
 </html>

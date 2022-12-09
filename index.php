@@ -71,20 +71,24 @@ background: linear-gradient(0deg, rgba(200,88,137,0.9192051820728291) 7%, rgba(5
                                 <h3>GOD OF WAR RAGNAROKK</h3>
                             </div>
                             <div class="description-prod">
-                                <p> Kratos y Atreus deben viajar a cada uno de los nueve reinos en búsqueda de respuestas, mientras que las fuerzas asgardianas se preparan para una batalla profetizada que terminará con el mundo. En el camino explorarán paisajes increíbles y míticos, y se enfrentarán a aterradores enemigos en la forma de dioses nórdicos y monstruos.</p>
+                                <p> Kratos y Atreus deben viajar a cada uno de los nueve reinos en búsqueda de
+                                    respuestas, mientras que las fuerzas asgardianas se preparan para una batalla
+                                    profetizada que terminará con el mundo. En el camino explorarán paisajes increíbles
+                                    y míticos, y se enfrentarán a aterradores enemigos en la forma de dioses nórdicos y
+                                    monstruos.</p>
                             </div>
                             <div class="card-footer">
                                 <div class="wcf-left"><span class="price">$1,500.00</span></div>
-                                <div class="wcf-right"><button href="#" class="buy-btn"><i
-                                            class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png"
-                                                width="60%"></i></button></div>
+
+
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="wsk-cp-product">
-                        <div class="wsk-cp-img"><img src="imagenes/Juegos/ConsolaPS5.jpg" alt="Product" class="img-responsive" />
+                        <div class="wsk-cp-img"><img src="imagenes/Juegos/ConsolaPS5.jpg" alt="Product"
+                                class="img-responsive" />
                         </div>
                         <div class="wsk-cp-text">
                             <div class="category">
@@ -96,20 +100,23 @@ background: linear-gradient(0deg, rgba(200,88,137,0.9192051820728291) 7%, rgba(5
                             <div class="description-prod">
                                 <p>La consola PS5 hace posibles nuevas formas de juego que jamás habías imaginado.
 
-Experimenta cargas super rápidas gracias a una unidad de estado sólido (SSD) de alta velocidad, una inmersión más profunda con retroalimentación háptica, gatillos adaptables y audio 3D, además de una nueva generación de increíbles juegos de PlayStation.</p>
+                                    Experimenta cargas super rápidas gracias a una unidad de estado sólido (SSD) de alta
+                                    velocidad, una inmersión más profunda con retroalimentación háptica, gatillos
+                                    adaptables y audio 3D, además de una nueva generación de increíbles juegos de
+                                    PlayStation.</p>
                             </div>
                             <div class="card-footer">
                                 <div class="wcf-left"><span class="price">$15,000.00</span></div>
-                                <div class="wcf-right"><button href="#" class="buy-btn"><i
-                                            class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png"
-                                                width="60%"></i></button></div>
+
+
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="wsk-cp-product">
-                        <div class="wsk-cp-img"><img src="imagenes/Juegos/spiderPs5.jpg" alt="Product" class="img-responsive" />
+                        <div class="wsk-cp-img"><img src="imagenes/Juegos/spiderPs5.jpg" alt="Product"
+                                class="img-responsive" />
                         </div>
                         <div class="wsk-cp-text">
                             <div class="category">
@@ -119,13 +126,15 @@ Experimenta cargas super rápidas gracias a una unidad de estado sólido (SSD) d
                                 <h3>SPIDER-MAN MILLES MORALES</h3>
                             </div>
                             <div class="description-prod">
-                                <p>La aventura más reciente en el universo de Spider-Man se basará en el mundo de Marvel’s Spider-Man y lo ampliará con una nueva historia. Los jugadores contemplarán el ascenso de Miles Morales a medida que domina nuevos poderes para convertirse en su propio Spider-Man.</p>
+                                <p>La aventura más reciente en el universo de Spider-Man se basará en el mundo de
+                                    Marvel’s Spider-Man y lo ampliará con una nueva historia. Los jugadores contemplarán
+                                    el ascenso de Miles Morales a medida que domina nuevos poderes para convertirse en
+                                    su propio Spider-Man.</p>
                             </div>
                             <div class="card-footer">
                                 <div class="wcf-left"><span class="price">$1,300.00</span></div>
-                                <div class="wcf-right"><button href="#" class="buy-btn"><i
-                                            class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png"
-                                                width="60%"></i></button></div>
+
+
                             </div>
                         </div>
                     </div>
@@ -133,7 +142,8 @@ Experimenta cargas super rápidas gracias a una unidad de estado sólido (SSD) d
 
                 <div class="col-md-3">
                     <div class="wsk-cp-product">
-                        <div class="wsk-cp-img"><img src="imagenes/Juegos/fifa23.jpg" alt="Product" class="img-responsive" />
+                        <div class="wsk-cp-img"><img src="imagenes/Juegos/fifa23.jpg" alt="Product"
+                                class="img-responsive" />
                         </div>
                         <div class="wsk-cp-text">
                             <div class="category">
@@ -143,37 +153,16 @@ Experimenta cargas super rápidas gracias a una unidad de estado sólido (SSD) d
                                 <h3>FIFA 23</h3>
                             </div>
                             <div class="description-prod">
-                                <p>Por primera vez en la historia de EA SPORTS FIFA podrás jugar con los clubes de futbol femeninos gracias a la llegada de la Barclays FA Women's Super League y la división 1 Arkema; disponibles desde el lanzamiento. También, disfruta de la competición cumbre del futbol internacional con la llegada a FIFA 23 de la FIFA World Cup Qatar 2022 y la FIFA Women's World Cup Australia and New Zealand 2023.</p>
+                                <p>Por primera vez en la historia de EA SPORTS FIFA podrás jugar con los clubes de
+                                    futbol femeninos gracias a la llegada de la Barclays FA Women's Super League y la
+                                    división 1 Arkema; disponibles desde el lanzamiento. También, disfruta de la
+                                    competición cumbre del futbol internacional con la llegada a FIFA 23 de la FIFA
+                                    World Cup Qatar 2022 y la FIFA Women's World Cup Australia and New Zealand 2023.</p>
                             </div>
                             <div class="card-footer">
                                 <div class="wcf-left"><span class="price">$1,300.00</span></div>
-                                <div class="wcf-right"><button href="#" class="buy-btn"><i
-                                            class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png"
-                                                width="60%"></i></button></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="col-md-3">
-                    <div class="wsk-cp-product">
-                        <div class="wsk-cp-img"><img src="imagenes/Juegos/eldenRing.jpg" alt="Product" class="img-responsive" />
-                        </div>
-                        <div class="wsk-cp-text">
-                            <div class="category">
-                                <span>PS5</span>
-                            </div>
-                            <div class="title-product">
-                                <h3>ELDEN RING</h3>
-                            </div>
-                            <div class="description-prod">
-                                <p>Elden Ring, desarrollado por FromSoftware y Bandai Namco, es una aventura de RPG de acción y fantasía situada en un mundo creado por Hidetaka Miyazaki -creador de la serie de videojuegos de alta influencia Dark Souls y George R.R. Martin – autor de las novelas best seller de The New York Times, Canción de Hielo y Fuego. Peligro y descubrimiento acechan en cada una de las esquinas del mayor juego de FromSoftware a la fecha.</p>
-                            </div>
-                            <div class="card-footer">
-                                <div class="wcf-left"><span class="price">$1,290.00</span></div>
-                                <div class="wcf-right"><button href="#" class="buy-btn"><i
-                                            class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png"
-                                                width="60%"></i></button></div>
+
                             </div>
                         </div>
                     </div>
@@ -188,7 +177,7 @@ Experimenta cargas super rápidas gracias a una unidad de estado sólido (SSD) d
     <div class="glitch_contenedor">
         <button href="#" style="color:#01c4e7">
             <div class="glitch" data-text="CYBERPUNK" style="background-image: url('./imagenes/bannerCP.png');">
-               <label style="left: 0px; top:-2px; position: absolute;">CYBERPUNK</label>
+                <label style="left: 0px; top:-2px; position: absolute;">CYBERPUNK</label>
             </div>
         </button>
     </div>
@@ -212,13 +201,18 @@ Experimenta cargas super rápidas gracias a una unidad de estado sólido (SSD) d
                                 <h3>CIBERPUNK 2077</h3>
                             </div>
                             <div class="description-prod">
-                                <p>Cyberpunk 2077 es un RPG de aventura y acción de mundo abierto ambientado en la megalópolis de Night City, donde te pondrás en la piel de un mercenario o una mercenaria ciberpunk y vivirás su lucha a vida o muerte por la supervivencia. Mejorado y con contenido nuevo adicional gratuito. Personaliza tu personaje y tu estilo de juego a medida que aceptas trabajos, te labras una reputación y desbloqueas mejoras. Las relaciones que forjes y las decisiones que tomes darán forma al mundo que te rodea. Aquí nacen las leyendas. ¿Cuál será la tuya?</p>
+                                <p>Cyberpunk 2077 es un RPG de aventura y acción de mundo abierto ambientado en la
+                                    megalópolis de Night City, donde te pondrás en la piel de un mercenario o una
+                                    mercenaria ciberpunk y vivirás su lucha a vida o muerte por la supervivencia.
+                                    Mejorado y con contenido nuevo adicional gratuito. Personaliza tu personaje y tu
+                                    estilo de juego a medida que aceptas trabajos, te labras una reputación y
+                                    desbloqueas mejoras. Las relaciones que forjes y las decisiones que tomes darán
+                                    forma al mundo que te rodea. Aquí nacen las leyendas. ¿Cuál será la tuya?</p>
                             </div>
                             <div class="card-footer">
                                 <div class="wcf-left"><span class="price">$800.00</span></div>
-                                <div class="wcf-right"><button href="#" class="buy-btn"><i
-                                            class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png"
-                                                width="60%"></i></button></div>
+
+
                             </div>
                         </div>
                     </div>
@@ -226,7 +220,8 @@ Experimenta cargas super rápidas gracias a una unidad de estado sólido (SSD) d
 
                 <div class="col-md-3">
                     <div class="wsk-cp-product">
-                        <div class="wsk-cp-img"><img src="imagenes/Juegos/mortal.jpg" alt="Product" class="img-responsive" />
+                        <div class="wsk-cp-img"><img src="imagenes/Juegos/mortal.jpg" alt="Product"
+                                class="img-responsive" />
                         </div>
                         <div class="wsk-cp-text">
                             <div class="category">
@@ -236,13 +231,17 @@ Experimenta cargas super rápidas gracias a una unidad de estado sólido (SSD) d
                                 <h3>MORTAL KOMBAT 11</h3>
                             </div>
                             <div class="description-prod">
-                                <p>¡La experiencia MK11 definitiva! Toma el control de los protectores de Earthrealm en las DOS Campañas de historia aclamadas por la crítica y que doblan el tiempo mientras corren para evitar que Kronika retroceda el tiempo y reinicie la historia. Las amistades se ponen a prueba y se forjan nuevas alianzas en la batalla para salvar toda la existencia. MK11 Ultimate presenta la lista completa de 37 personajes, incluidas las nuevas incorporaciones Rain, Mileena y Rambo.</p>
+                                <p>¡La experiencia MK11 definitiva! Toma el control de los protectores de Earthrealm en
+                                    las DOS Campañas de historia aclamadas por la crítica y que doblan el tiempo
+                                    mientras corren para evitar que Kronika retroceda el tiempo y reinicie la historia.
+                                    Las amistades se ponen a prueba y se forjan nuevas alianzas en la batalla para
+                                    salvar toda la existencia. MK11 Ultimate presenta la lista completa de 37
+                                    personajes, incluidas las nuevas incorporaciones Rain, Mileena y Rambo.</p>
                             </div>
                             <div class="card-footer">
                                 <div class="wcf-left"><span class="price">$600.00</span></div>
-                                <div class="wcf-right"><button href="#" class="buy-btn"><i
-                                            class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png"
-                                                width="60%"></i></button></div>
+
+
                             </div>
                         </div>
                     </div>
@@ -250,7 +249,8 @@ Experimenta cargas super rápidas gracias a una unidad de estado sólido (SSD) d
 
                 <div class="col-md-3">
                     <div class="wsk-cp-product">
-                        <div class="wsk-cp-img"><img src="imagenes/Juegos/ConsolaXbox.jpg" alt="Product" class="img-responsive" />
+                        <div class="wsk-cp-img"><img src="imagenes/Juegos/ConsolaXbox.jpg" alt="Product"
+                                class="img-responsive" />
                         </div>
                         <div class="wsk-cp-text">
                             <div class="category">
@@ -262,15 +262,18 @@ Experimenta cargas super rápidas gracias a una unidad de estado sólido (SSD) d
                             <div class="description-prod">
                                 <p>¡La Xbox más rápida y más potente de la historia!
 
-Desde aventuras futuras hasta los juegos del momento y los títulos clásicos: miles de juegos favoritos de cuatro generaciones de Xbox se ven y se juegan mejor en la Xbox Series X.
+                                    Desde aventuras futuras hasta los juegos del momento y los títulos clásicos: miles
+                                    de juegos favoritos de cuatro generaciones de Xbox se ven y se juegan mejor en la
+                                    Xbox Series X.
 
-La Xbox Series X ofrece velocidades de cuadro sensacionalmente suaves de hasta 120 FPS con la explosión visual que ofrece HDR. Sumérgete con personajes más nítidos, mundos más brillantes y detalles imposibles con auténtico 4K.</p>
+                                    La Xbox Series X ofrece velocidades de cuadro sensacionalmente suaves de hasta 120
+                                    FPS con la explosión visual que ofrece HDR. Sumérgete con personajes más nítidos,
+                                    mundos más brillantes y detalles imposibles con auténtico 4K.</p>
                             </div>
                             <div class="card-footer">
                                 <div class="wcf-left"><span class="price">$14,000.00</span></div>
-                                <div class="wcf-right"><button href="#" class="buy-btn"><i
-                                            class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png"
-                                                width="60%"></i></button></div>
+
+
                             </div>
                         </div>
                     </div>
@@ -278,7 +281,8 @@ La Xbox Series X ofrece velocidades de cuadro sensacionalmente suaves de hasta 1
 
                 <div class="col-md-3">
                     <div class="wsk-cp-product">
-                        <div class="wsk-cp-img"><img src="imagenes/Juegos/codwm2.jpg" alt="Product" class="img-responsive" />
+                        <div class="wsk-cp-img"><img src="imagenes/Juegos/codwm2.jpg" alt="Product"
+                                class="img-responsive" />
                         </div>
                         <div class="wsk-cp-text">
                             <div class="category">
@@ -288,41 +292,27 @@ La Xbox Series X ofrece velocidades de cuadro sensacionalmente suaves de hasta 1
                                 <h3>CALL OF DUTY: MODERN WARFARE II</h3>
                             </div>
                             <div class="description-prod">
-                                <p>Call of Duty: Modern Warfare II es la secuela del éxito de taquilla del 2019, Modern Warfare. Con el regreso del icónico líder del equipo, el capitán John Price, el intrépido John "Soap" MacTavish, el experimentado sargento Kyle "Gaz" Garrick y el lobo solitario, el favorito de los fanáticos Simon "Ghost" Riley, los jugadores serán testigos de la legendaria Fuerza operativa 141. Desde operaciones tácticas de infiltración a pequeña escala hasta misiones ultra secretas, los jugadores deberán aprovechar nuevas armas, vehículos y equipo avanzado para enfrentarse a sus enemigos. Prepárate y lleva la lucha mar adentro mientras asedias a los enemigos bajo el agua, irrumpe en una base enemiga altamente fortificada, infíltrate a través de los canales y libera a aliados ocultos entre las montañas.</p>
+                                <p>Call of Duty: Modern Warfare II es la secuela del éxito de taquilla del 2019, Modern
+                                    Warfare. Con el regreso del icónico líder del equipo, el capitán John Price, el
+                                    intrépido John "Soap" MacTavish, el experimentado sargento Kyle "Gaz" Garrick y el
+                                    lobo solitario, el favorito de los fanáticos Simon "Ghost" Riley, los jugadores
+                                    serán testigos de la legendaria Fuerza operativa 141. Desde operaciones tácticas de
+                                    infiltración a pequeña escala hasta misiones ultra secretas, los jugadores deberán
+                                    aprovechar nuevas armas, vehículos y equipo avanzado para enfrentarse a sus
+                                    enemigos. Prepárate y lleva la lucha mar adentro mientras asedias a los enemigos
+                                    bajo el agua, irrumpe en una base enemiga altamente fortificada, infíltrate a través
+                                    de los canales y libera a aliados ocultos entre las montañas.</p>
                             </div>
                             <div class="card-footer">
                                 <div class="wcf-left"><span class="price">$1,800.00</span></div>
-                                <div class="wcf-right"><button href="#" class="buy-btn"><i
-                                            class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png"
-                                                width="60%"></i></button></div>
+
+
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-3">
-                    <div class="wsk-cp-product">
-                        <div class="wsk-cp-img"><img src="imagenes/Juegos/control.jpg" alt="Product" class="img-responsive" />
-                        </div>
-                        <div class="wsk-cp-text">
-                            <div class="category">
-                                <span>XBOX SERIES X/S</span>
-                            </div>
-                            <div class="title-product">
-                                <h3>CONTROL INALAMBRICO XBOX</h3>
-                            </div>
-                            <div class="description-prod">
-                                <p>Vive la experiencia del diseño modernizado del control inalámbrico de Xbox – Pulse Red, que presenta superficies esculpidas y una geometría refinada para una mayor comodidad durante el juego. Mantén siempre tu objetivo con el pad direccional híbrido y el agarre texturizado en los gatillos, en los botones superiores y en la carcasa trasera. Captura y comparte contenido sin dificultad, como capturas de pantalla, grabaciones y más, con el nuevo botón para Compartir. </p>
-                            </div>
-                            <div class="card-footer">
-                                <div class="wcf-left"><span class="price">$1,500.00</span></div>
-                                <div class="wcf-right"><button href="#" class="buy-btn"><i
-                                            class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png"
-                                                width="60%"></i></button></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
 
             </div>
         </div>
@@ -348,20 +338,26 @@ La Xbox Series X ofrece velocidades de cuadro sensacionalmente suaves de hasta 1
                                 <h3>POKEMON SCARLET</h3>
                             </div>
                             <div class="description-prod">
-                                <p>Atrapa, combate y entrena Pokémon en la región de Paldea, una vasta tierra llena de lagos, cimas montañosas, páramos, poblaciones pequeñas y grandes ciudades. Explora un mundo completamente abierto a tu propio paso y recorre a través de la tierra, el agua y el aire a lomos del Pokémon legendario Koraidon, que puede cambiar de forma en Pokémon Scarlet, o sobre el Pokémon legendario Miraidon, que puede cambiar de forma en Pokémon Violet. Elige entre Sprigatito, Fuecoco o Quaxly para que sea tu primer compañero Pokémon antes de lanzarte en tu aventura a través de Paldea.</p>
+                                <p>Atrapa, combate y entrena Pokémon en la región de Paldea, una vasta tierra llena de
+                                    lagos, cimas montañosas, páramos, poblaciones pequeñas y grandes ciudades. Explora
+                                    un mundo completamente abierto a tu propio paso y recorre a través de la tierra, el
+                                    agua y el aire a lomos del Pokémon legendario Koraidon, que puede cambiar de forma
+                                    en Pokémon Scarlet, o sobre el Pokémon legendario Miraidon, que puede cambiar de
+                                    forma en Pokémon Violet. Elige entre Sprigatito, Fuecoco o Quaxly para que sea tu
+                                    primer compañero Pokémon antes de lanzarte en tu aventura a través de Paldea.</p>
                             </div>
                             <div class="card-footer">
                                 <div class="wcf-left"><span class="price">$1,400.00</span></div>
-                                <div class="wcf-right"><button href="#" class="buy-btn"><i
-                                            class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png"
-                                                width="60%"></i></button></div>
+
+
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="wsk-cp-product">
-                        <div class="wsk-cp-img"><img src="imagenes/Juegos/zelda.jpg" alt="Product" class="img-responsive" />
+                        <div class="wsk-cp-img"><img src="imagenes/Juegos/zelda.jpg" alt="Product"
+                                class="img-responsive" />
                         </div>
                         <br><br>
                         <div class="wsk-cp-text">
@@ -372,20 +368,25 @@ La Xbox Series X ofrece velocidades de cuadro sensacionalmente suaves de hasta 1
                                 <h3>THE LEGEND OF ZELDA BREATH OF THE WILD</h3>
                             </div>
                             <div class="description-prod">
-                                <p>¡Entra en un Mundo de Aventura. Olvida todo lo que sabes sobre los juegos de The Legend of Zelda. Entra en un mundo de descubrimientos, exploración y aventura en The Legend of Zelda: Breath of the Wild, un nuevo juego de la aclamada serie que rompe con las convenciones. Viaja por prados, bosques y cumbres montañosas para descubrir qué ha sido del asolado reino de Hyrule en esta maravillosa aventura a cielo abierto ¡Explora las tierras de Hyrule como más te guste. </p>
+                                <p>¡Entra en un Mundo de Aventura. Olvida todo lo que sabes sobre los juegos de The
+                                    Legend of Zelda. Entra en un mundo de descubrimientos, exploración y aventura en The
+                                    Legend of Zelda: Breath of the Wild, un nuevo juego de la aclamada serie que rompe
+                                    con las convenciones. Viaja por prados, bosques y cumbres montañosas para descubrir
+                                    qué ha sido del asolado reino de Hyrule en esta maravillosa aventura a cielo abierto
+                                    ¡Explora las tierras de Hyrule como más te guste. </p>
                             </div>
                             <div class="card-footer">
                                 <div class="wcf-left"><span class="price">$1,200</span></div>
-                                <div class="wcf-right"><button href="#" class="buy-btn"><i
-                                            class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png"
-                                                width="60%"></i></button></div>
+
+
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="wsk-cp-product">
-                        <div class="wsk-cp-img"><img src="imagenes/Juegos/mario.jpg" alt="Product" class="img-responsive" />
+                        <div class="wsk-cp-img"><img src="imagenes/Juegos/mario.jpg" alt="Product"
+                                class="img-responsive" />
                         </div>
                         <br><br>
                         <div class="wsk-cp-text">
@@ -396,20 +397,22 @@ La Xbox Series X ofrece velocidades de cuadro sensacionalmente suaves de hasta 1
                                 <h3>SUPER MARIO ODYSSEY</h3>
                             </div>
                             <div class="description-prod">
-                                <p>Acompaña button Mario en una aventura en 3D enorme por todo el planeta usando sus nuevas habilidades para recoger lunas que servirán de combustible a tu aeronave, la Odyssey. ¡Y entretanto, rescata a la princesa Peach de las garras de Bowser. </p>
+                                <p>Acompaña button Mario en una aventura en 3D enorme por todo el planeta usando sus
+                                    nuevas habilidades para recoger lunas que servirán de combustible a tu aeronave, la
+                                    Odyssey. ¡Y entretanto, rescata a la princesa Peach de las garras de Bowser. </p>
                             </div>
                             <div class="card-footer">
                                 <div class="wcf-left"><span class="price">$1,290.00</span></div>
-                                <div class="wcf-right"><button href="#" class="buy-btn"><i
-                                            class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png"
-                                                width="60%"></i></button></div>
+
+
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="wsk-cp-product">
-                        <div class="wsk-cp-img"><img src="imagenes/Juegos/ConsoleNSW.jpg" alt="Product" class="img-responsive" />
+                        <div class="wsk-cp-img"><img src="imagenes/Juegos/ConsoleNSW.jpg" alt="Product"
+                                class="img-responsive" />
                         </div>
                         <br><br>
                         <div class="wsk-cp-text">
@@ -420,37 +423,16 @@ La Xbox Series X ofrece velocidades de cuadro sensacionalmente suaves de hasta 1
                                 <h3>CONSOLA NINTENDO SWITCH</h3>
                             </div>
                             <div class="description-prod">
-                                <p>Presentamos Nintendo Switch, el nuevo sistema de videojuego para el hogar de Nintendo; además de proporcionar emociones únicas y multijugador en casa, el sistema Nintendo Switch se puede llevar mientras viaja para que los jugadores puedan disfrutar de una experiencia de consola completa en cualquier momento y en cualquier lugar</p>
+                                <p>Presentamos Nintendo Switch, el nuevo sistema de videojuego para el hogar de
+                                    Nintendo; además de proporcionar emociones únicas y multijugador en casa, el sistema
+                                    Nintendo Switch se puede llevar mientras viaja para que los jugadores puedan
+                                    disfrutar de una experiencia de consola completa en cualquier momento y en cualquier
+                                    lugar</p>
                             </div>
                             <div class="card-footer">
                                 <div class="wcf-left"><span class="price">$7,000.00</span></div>
-                                <div class="wcf-right"><button href="#" class="buy-btn"><i
-                                            class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png"
-                                                width="60%"></i></button></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="wsk-cp-product">
-                        <div class="wsk-cp-img"><img src="imagenes/Juegos/marioPar.jpg" alt="Product" class="img-responsive" />
-                        </div>
-                        <br><br>
-                        <div class="wsk-cp-text">
-                            <div class="category">
-                                <span>NINTENDO SWITCH</span>
-                            </div>
-                            <div class="title-product">
-                                <h3>MARIO PARTY SUPERSTARS</h3>
-                            </div>
-                            <div class="description-prod">
-                                <p>¡Llamando a todos los seguidores! Mario Party™ está de regreso con cinco tableros clásicos del juego de fiesta para la consola Nintendo 64. El glaseado y las flores estarán presentes mientras compites por obtener el mayor número de estrellas (y saboteas a tus oponentes) en el tablero de El pastel de cumpleaños de Peach del juego original de Mario Party. </p>
-                            </div>
-                            <div class="card-footer">
-                                <div class="wcf-left"><span class="price">$1,300.00</span></div>
-                                <div class="wcf-right"><button href="#" class="buy-btn"><i
-                                            class="zmdi zmdi-shopping-basket"><img src="imagenes/imagei.png"
-                                                width="60%"></i></button></div>
+
+
                             </div>
                         </div>
                     </div>

@@ -10,6 +10,7 @@
   background: -webkit-gradient(linear, 0 0, 0 100%, from(#17a3b8), to(#1ea3c8));
   background: -moz-linear-gradient(top, #17a3b8, #1ea3c8);
 }
+
 .buttonmas:hover {
   background: -webkit-gradient(linear, 0 0, 0 100%, from(#999999), to(#000000));
 }
@@ -26,24 +27,34 @@
   background: -webkit-gradient(linear, 0 0, 0 100%, from(#DB3545), to(#D22435));
   background: -moz-linear-gradient(top, #DB3545, #D22435);
 }
+
 .buttonmenos:hover {
   background: -webkit-gradient(linear, 0 0, 0 100%, from(#000000), to(#999999));
 }
 
 .botones {
-    display: flex;
-    flex-direction: column;
-    style="padding: 0;"
-    }
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
 
 .buttonmas {
-    order: 0;
-    flex: 0 1 auto;
-    align-self: auto;
-    }
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+}
 
-.buttonmenos{
-    order: 0;
-    flex: 0 1 auto;
-    align-self: auto;
-    }
+.buttonmenos {
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+}
+
+.total {
+  position: fixed;
+  top: 150px;
+  left: 700px;
+  margin-bottom:300px;
+
+
+}

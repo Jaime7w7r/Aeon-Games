@@ -42,31 +42,32 @@ $conexion = new mysqli($servidor,$cuenta,$password,$bd);
             $cantidad = $fila['Cantidad'];
             if($nombre_carrito == $nombre){
     ?>
-            <script>
-            array.push("<?php echo $nombre_carrito ?>");
-            console.log(array);
-            </script>
-            <hr>
+    <script>
+    array.push("<?php echo $nombre_carrito ?>");
+    console.log(array);
+    </script>
 
-    <div class="container" style="margin-bottom: 15px;">
-  <div class="row"   style="margin: 0 auto;">
-    <div class=" col col-md-1 col-xl-1" style="padding: 0;">
-      <img src="imagenes\Juegos\<?php echo $imagen ?>" style="width:90%; alt="...">
-    </div>
-    <div class="col col col-md-10 col-xl-4" style="min-width: 250px; padding: 0;">
-      <h5><?php echo $nombre_carrito ?></h5>
-      <h6>Cantidad: <?php echo $cantidad ?> </h6>
-      <h6>Subtotal:$ <?php echo ($cantidad * $precio) ?> </h6>
-    </div>
-    <div class="col col-md-1 col-xl-1" style="padding: 0;">
-        <div class="botones">
-            <button type="button" class="buttonmas" id="<?php echo $numPro ?>"onclick="agregar(this.id);recargar();" <?php if($existencia<=$cantidad){echo 'disabled'; } ?>>˄</button>
-            <button type="button" id="<?php echo $numPro ?>" class="buttonmenos"onclick="eliminar(this.id);recargar();">˅</button>
+    <div class="card mb-3" style="max-width: 540px;">
+        <div class="row no-gutters">
+            <div class="col-md-4">
+                <img src="imagenes\Juegos\<?php echo $imagen ?>" style="width:165px;height:180px;" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title"><?php echo $nombre_carrito ?></h5>
+                    <h6>Cantidad: <?php echo $cantidad ?> </h6>
+                    <h6>Subtotal:$ <?php echo ($cantidad * $precio) ?> </h6>
+                    <button type="button" class="buttonmas " id="<?php echo $numPro ?>"
+                        onclick="agregar(this.id);recargar();"
+                        <?php if($existencia<=$cantidad){echo 'disabled'; } ?>>+</button>
+                    <button type="button" id="<?php echo $numPro ?>" class="buttonmenos"
+                        onclick="eliminar(this.id);recargar();">-</button>
+
+                </div>
+            </div>
         </div>
     </div>
-  </div>
-</div>
-<hr>
+
 
 
     <?php
@@ -78,15 +79,55 @@ $conexion = new mysqli($servidor,$cuenta,$password,$bd);
     ?>
     <?php
         }//fin while productos
-    ?>
-    <button type="button">Pagar</button>
+        $descuento="";
+        if(isset($_POST['button-addon2'])){
+
+            if($_POST['cupon']=='AEONDES3'){
+                $total=$total*0.7;
+                $descuento='Se aplico el %30 de descuento';
+            }
+            if('DESbee1'==$_POST['cupon']){
+                $total=$total*0.9;
+                $descuento='Se aplico el %10 de descuento';
+            }
+            if('desppe2'==$_POST['cupon']){
+                $total=$total-100;
+                $descuento='Se descontaron $100';
+            }
+
+
+        }
+
+    ?>      
+
+
+    <div class="total">
+        <div class="card w-200">
+            <div class="card-body">
+                <h5 class="card-title">Subtotal $<?php echo $total ?></h5>
+                <p class="card-text"><?php echo $descuento ?></p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+            </div>
+            <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Cupon"
+                    aria-label="Recipient's username" name="cupon" aria-describedby="button-addon2">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="submit" name="button-addon2" id="button-addon2">Aplicar</button>
+                </div>
+            </div>
+            </form>
+        </div>
+    </div>
+
+
     <?php 
     include 'footer.php';?>
-        <script>
-            function recargar(){
-                location.reload();
-            }
-        </script>
+    <script>
+    function recargar() {
+        location.reload();
+    }
+    </script>
 </body>
 
 </html>

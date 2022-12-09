@@ -38,6 +38,7 @@
         <textarea name="pregunta" placeholder="Pregunta" id="" cols="30" rows="2"></textarea><br>
         <button id="BOTON" type="submit" value="enviar" name="enviar">Enviar</button>
         <br>
+        <br>
     </form></div>
     <div class="ASQ"><?php
     if (isset($_POST['enviar'])) {

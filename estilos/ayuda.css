@@ -2,15 +2,16 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: sans-serif;
-	background: linear-gradient(#141e30, #243b55);
+	background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(148,187,233,1) 100%);
 }
 
 h5{
-    color:aliceblue;
+    color:rgb(38, 39, 41);
 }
 
 p{
-    color:aliceblue;
+    color:rgb(48, 51, 53);
 	margin: 30px;
 }
 
@@ -29,7 +30,10 @@ p{
 	width: 95vh;
 	color: aliceblue;
 	margin-top: -40px;
+}
 
+.Formulario input{
+	border: 1px solid rgb(0, 0, 0);
 }
 
 .Formulario, form, input,textarea{
@@ -39,8 +43,8 @@ p{
 .Formulario #BOTON{
 	border-radius: 15px;
 	background: transparent;
-	border: 1px solid#fff;
-	color: #fff;
+	border: 1px solid rgb(128, 125, 125);
+	color: rgb(128, 125, 125);
 	cursor: pointer;
 
 }
@@ -63,6 +67,7 @@ p{
 
 .Hoja{
 	background-color: rgba(255, 255, 255, 0.356);
-	width: 95vh;
+	width: 70%;
+	height: 10%;
 	margin: 0px auto;
 }

@@ -1,3 +1,9 @@
+<?php 
+require_once 'Helpers.php';
+require_once 'Parameters.php';
+require_once 'basedatos.php';
+session_start();
+?>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
     integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 <style>
@@ -73,7 +79,6 @@
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li
@@ -97,8 +102,18 @@
                 <a class="nav-link " href="ayuda.php">Ayuda</a>
             </li>
         </ul>
+        <?PHP if(!isset($_SESSION['User'])):?>
+            
         <button onclick="location.href='RegisterForm.php'" type="button" class="btn btn-outline-dark"><span class="login">Suscribirse</span></button>
         <button onclick="location.href='LogInForm.php'" type="button" class="btn btn-outline-dark"><span class="login">Login</span></button>
+        <?php 
+            else:
+        ?>
+        <?php var_dump($_SESSION['User'])?>
+        <button onclick="location.href='LogOut.php'" type="button" class="btn btn-outline-dark"><span class="login">LogOut</span></button>
+        <?php
+            endif;  
+        ?>
         <div>
             <a href="carrito.php"><img src="imagenes\carrito.png" alt="" id="carrito"></a>
             <div id="add_icon"><span>1</span></div>

@@ -1,5 +1,6 @@
 <?php
 require_once 'basedatos.php';
+session_start();
 if(isset($_POST)){
     
     $Email=isset($_POST['Email']) ? $_POST['Email']:false;
@@ -16,7 +17,7 @@ if(isset($_POST)){
             $Verify=password_verify($Password,$Usuario->Password);
             
             if($Verify){
-                $_SESSION['User']=$Usuario->Email;
+                $_SESSION['User']=$Usuario;
                 if(!empty($_POST["remember"])) {
                     setcookie ("username",$_POST["Email"],time()+ 3600);
                     setcookie ("password",$_POST["password"],time()+ 3600);
@@ -29,6 +30,7 @@ if(isset($_POST)){
                 header('Location: LogInForm.php');
             }
         }
+
     }else if($captchaCookie != sha1($captcha)){
         echo "captcha Incorrecto";
     }

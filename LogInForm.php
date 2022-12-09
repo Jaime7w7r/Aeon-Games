@@ -1,5 +1,4 @@
 <?php
-session_start();
 $message = '';
 if ( isset($_POST['captcha1']) && ($_POST['captcha1']!="")){
 	if(strcasecmp($_SESSION['captcha'], $_POST['captcha1']) != 0){

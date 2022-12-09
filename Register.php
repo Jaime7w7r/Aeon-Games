@@ -1,4 +1,6 @@
 <?php
+session_start();
+require_once 'Users_Model.php';
 require_once 'basedatos.php';
 if(isset($_POST)){
 $Id='null';
@@ -9,10 +11,11 @@ $Password=password_hash($_POST['Password'],PASSWORD_BCRYPT,['cost'=>4]);
 $Rol='user';
 $Bloqueado='no';
 
-$Sql="INSERT INTO Users VALUES($Id,'$Name','$LastName','$Email','$Password','$Rol', '$Bloqueado')";
-$Save=$conexion->query($Sql);
+$Save=Register_User($Id,$Name,$LastName,$Email,$Password,$Rol,$Bloqueado,$conexion);
     if($Save){
-        $_SESSION['User']=$Usuario->Email;
+        $User=getLastUser($conexion);
+        $_SESSION['User']=$User;
+        header('Location: /ProyectoFinal/Aeon-Games/');
         
     }
 }

@@ -1,3 +1,6 @@
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 <?php 
 require_once 'Helpers.php';
 require_once 'Parameters.php';
@@ -66,6 +69,20 @@ session_start();
     background-color: rgba(95, 36, 36, 0.445);
 }
 
+.usuario{
+    font-size: 17px;
+    font-family: 'Syne Mono', monospace;
+    color: white;
+    text-shadow: 0 0 10px #fff;
+    margin-left:10px;
+    margin-right: 10px;
+    margin-top: 4px;
+}
+.user{
+    display: flex;
+    margin-top: 15px;
+}
+
 </style>
 
 
@@ -109,7 +126,13 @@ session_start();
         <?php 
             else:
         ?>
-        <?php var_dump($_SESSION['User'])?>
+        <div class="user">
+
+        <?php 
+            echo '<img src="imagenes\usuario.png" style="width: 20px; height: 20px; margin-top:5px;" alt="user">';
+            echo '<p class="usuario">'.$_SESSION['User']->Name.'</p>';
+        ?>
+        </div>
         <button onclick="location.href='LogOut.php'" type="button" class="btn btn-outline-dark"><span class="login">LogOut</span></button>
         <?php
             endif;  

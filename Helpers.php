@@ -2,7 +2,7 @@
 
 function IsLoged($SessionName){
     if(!isset($_SESSION[$SessionName])){
-        header('Location: /ProyectoFinal/Aeon-Games/');
+        header('Location: index.php');
     }else{
         return TRUE;
     }

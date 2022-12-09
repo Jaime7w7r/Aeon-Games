@@ -80,6 +80,7 @@ include('main/headerSesionCapt.php');
         	<small><a href="RegisterForm.php">Registrarse</a></small>
     	</div>
     </div>
+ 
 
     
 

@@ -32,7 +32,8 @@ if(isset($_POST)){
         }
 
     }else if($captchaCookie != sha1($captcha)){
-        echo "captcha Incorrecto";
+        header('Location: LogInForm.php');
+
     }
 }
 

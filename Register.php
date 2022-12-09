@@ -15,7 +15,7 @@ $Save=Register_User($Id,$Name,$LastName,$Email,$Password,$Rol,$Bloqueado,$conexi
     if($Save){
         $User=getLastUser($conexion);
         $_SESSION['User']=$User;
-        header('Location: /ProyectoFinal/Aeon-Games/');
+        header('Location: LogInForm.php');
         
     }
 }

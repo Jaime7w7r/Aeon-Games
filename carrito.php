@@ -57,7 +57,7 @@ $conexion = new mysqli($servidor,$cuenta,$password,$bd);
                             <h6>Cantidad: <?php echo $cantidad ?> </h6>
                             <h6>Subtotal:$ <?php echo ($cantidad * $precio) ?> </h6>
                             <button type="button" class="btn btn-info" id="<?php echo $numPro ?>"
-                            onclick="agregar(this.id);recargar();">Agregar</button>
+                            onclick="agregar(this.id);recargar();" <?php if($existencia<=$cantidad){echo 'disabled'; } ?>>Agregar</button>
                             <button type="button" id="<?php echo $numPro ?>" class="btn btn-danger" 
                             onclick="eliminar(this.id);recargar();">Eliminar</button>
 

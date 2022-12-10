@@ -172,18 +172,6 @@ background: linear-gradient(0deg, rgba(200,88,137,0.9192051820728291) 7%, rgba(5
         </div>
     </div>
 
-
-
-    <div class="glitch_contenedor">
-        <button href="#" style="color:#01c4e7">
-            <div class="glitch" data-text="CYBERPUNK" style="background-image: url('./imagenes/bannerCP.png');">
-                <label style="left: 0px; top:-2px; position: absolute;">CYBERPUNK</label>
-            </div>
-        </button>
-    </div>
-
-
-
     <div class="container text-center">
         <div class="container">
             <img class="logo_imagen" src="imagenes\1200px-XBOX_logo_2012.svg.png" alt="" style="height:40px">

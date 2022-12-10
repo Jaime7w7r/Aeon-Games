@@ -22,7 +22,8 @@ $conexion = new mysqli($servidor,$cuenta,$password,$bd);
 
 <body>
     <?php include 'header.php';?>
-
+<div class="Container">
+        <div class="row">
     <?php
     $sql = 'SELECT * from productos';
     $prod = $conexion -> query($sql);
@@ -46,13 +47,10 @@ $conexion = new mysqli($servidor,$cuenta,$password,$bd);
     array.push("<?php echo $nombre_carrito ?>");
     console.log(array);
     </script>
-
-    <div class="card mb-3" style="max-width: 540px;">
-        <div class="row no-gutters">
-            <div class="col-md-4">
+            <div class="col col-sm-12 col-md-4 col-lg-2" style="left: 3%; padding-bottom: 15px;">
                 <img src="imagenes\Juegos\<?php echo $imagen ?>" style="width:165px;height:180px;" alt="...">
             </div>
-            <div class="col-md-8">
+            <div class="col col-sm-12 col-md-8 col-lg-4">
                 <div class="card-body">
                     <h5 class="card-title"><?php echo $nombre_carrito ?></h5>
                     <h6>Cantidad: <?php echo $cantidad ?> </h6>
@@ -65,8 +63,6 @@ $conexion = new mysqli($servidor,$cuenta,$password,$bd);
 
                 </div>
             </div>
-        </div>
-    </div>
 
 
 
@@ -99,7 +95,8 @@ $conexion = new mysqli($servidor,$cuenta,$password,$bd);
         }
 
     ?>      
-
+</div>
+</div>
 
     <div class="total">
         <div class="card w-200">

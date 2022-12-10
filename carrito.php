@@ -103,7 +103,7 @@ $conexion = new mysqli($servidor,$cuenta,$password,$bd);
             <div class="card-body">
                 <h5 class="card-title">Subtotal $<?php echo $total ?></h5>
                 <p class="card-text"><?php echo $descuento ?></p>
-                <a href="#" class="btn btn-primary">Comprar</a>
+                <a href="<?= isset($_SESSION['User']) ?  'hOLA' : 'LogInForm.php'?>" class="btn btn-primary">Comprar</a>
             </div>
             <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
             <div class="input-group mb-3">

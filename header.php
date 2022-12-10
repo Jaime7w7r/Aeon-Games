@@ -6,6 +6,7 @@ require_once 'Helpers.php';
 require_once 'Parameters.php';
 require_once 'basedatos.php';
 session_start();
+$Fecha=date('d/m/y');
 ?>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
     integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
@@ -91,7 +92,8 @@ session_start();
 <nav class="navbar navbar-expand-lg navbar-dark " id="nav">
     <a class="navbar-brand" href="#"><img src="imagenes\logo.png" id="logo" alt=""></a>
     <pre class="slogan">Hazlo facil 
-  Aeon Games</pre>
+  Aeon Games
+    <?= $Fecha?></pre>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -130,17 +132,20 @@ session_start();
 
         <?php 
             echo '<img src="imagenes\usuario.png" style="width: 20px; height: 20px; margin-top:5px;" alt="user">';
-            echo '<p class="usuario">'.$_SESSION['User']->Name.'</p>';
+            $User=$_SESSION['User'];
+            echo '<p class="usuario">'.$User['Name'].'</p>';
         ?>
         </div>
         <button onclick="location.href='LogOut.php'" type="button" class="btn btn-outline-dark"><span class="login">LogOut</span></button>
         <?php
             endif;  
         ?>
+        <?php if(isset($_SESSION['User'])):?>
         <div>
             <a href="carrito.php"><img src="imagenes\carrito.png" alt="" id="carrito"></a>
             <div id="add_icon"><span>1</span></div>
         </div>
+        <?php endif?>
     </div>
 </nav>
 

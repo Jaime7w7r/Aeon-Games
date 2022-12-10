@@ -8,7 +8,7 @@
 body {
  	overflow-x: hidden;
  	font-family: 'Syne Mono', monospace;
- 	background-color: #000000af;
+
 }
 
 .contenedor{
@@ -34,26 +34,66 @@ body {
 	text-align: center;
 }
 
-.contenedor .cont input{
+.contenedor .cont input[type="text"]{
 	width: 100%;
 	padding: 10px 0;
   	font-size: 16px;
   	text-align: center;
+  	border-radius: 10px;
+}
+
+
+
+.cont label{
+	margin-bottom: 10px;
+	color: #fff;
+}
+
+
+
+.contenedor .cont input[type="submit"]{
+	position: relative;
+	top: 10px;
+	left: 20%;
+	padding: 10px;
+	border-radius: 10px;
+	border: transparent;
+
 }
 
 
 .two-fields{
 	width: 100%;
+	padding: 10px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
 }
+
 
 .two-fields .grupo-input{
 	width: 100%;
+	display: inlineflex;
+	flex-direction: column;
+}
+
+.grupo-input label{
+	color: #fff;
 }
 
 .two-fields input{
 	width: 50px !important;
 	padding: 10px 0;
-	font-size: 16px;
+	font-size: 13px;
 	text-align: center;
+	border-radius: 10px;
+
 }
+
+.imgTar{
+	margin: 10px 0;
+	width: 150px;
+}
+
+
 

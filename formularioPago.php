@@ -8,32 +8,37 @@
 	
 </head>
 <body>
+
+
 	<div class="contenedor">
 		<form action="" method="POST">
-		<h2>INGRESA TARJETA DE CREDITO O DEBITO</h2>
-		<div class="cont">
-			<label>Nombre del Titular</label>
-			<input type="text" name="titular">
-		</div>
-		<div class="cont">
-			<label>Numero de la Tarjeta</label>
-			<input type="text" name="tarjeta">
-		</div>
-		<div class="two-fields">
-			<label>Fecha de Expiracion MM/AA</label>
-			<div class="grupo-input">
-				<input type="text" name="expiracionMes">
-				<input type="text" name="expiracionAnio">
+			<h2>INGRESA TARJETA DE CREDITO O DEBITO</h2>
+			<div align="center">
+				<img class="imgTar" src="imagenes/tarjetas.png">
 			</div>
-			<label>CVC</label>
-			<div>
-				<input type="text" name="cvc">
+			<div class="cont">
+				<label>Nombre del Titular</label>
+				<input type="text" name="titular" placeholder="Nombre completo">
 			</div>
-		</div>
-		<div class="cont">
-			
-		</div>
-	</form>
+			<div class="cont">
+				<label>Numero de la Tarjeta</label>
+				<input type="text" name="tarjeta" placeholder="XXXX-XXXX-XXXX-XXXX">
+			</div>
+			<div class="two-fields">
+				<div class="grupo-input">
+					<label>Expiracion MM/AA</label>
+					<input type="text" name="expiracionMes" placeholder="MM">
+					<input type="text" name="expiracionAnio" placeholder="AA">
+				</div>
+				<div class="grupo-input">
+					<label>CVC</label>
+					<input type="number" name="cvc" maxlength="number 3" placeholder="CVC">
+				</div>
+			</div>
+			<div class="cont">
+				<input type="submit" name="enviarD" value="Enviar Datos de La tarjeta">
+			</div>
+		</form>
 	</div>
-</body>
+
 </html>

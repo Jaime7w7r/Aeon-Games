@@ -1,3 +1,3 @@
 <?php
-define("BaseUrl",'/curso/Aeon-Games/');
+define("BaseUrl",'/cursophp/Aeon-Games/');
 ?>

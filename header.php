@@ -84,6 +84,11 @@ $Fecha=date('d/m/y');
     margin-top: 15px;
 }
 
+.wsk-cp-product{
+  background-color: rgba(253, 253, 253, 0.15);  
+  backdrop-filter: blur(5px);
+}
+
 </style>
 
 

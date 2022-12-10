@@ -65,7 +65,7 @@ $Fecha=date('d/m/y');
 }
 
 #aux_nav {
-    height: 95px;
+    height: 115px;
     position: relative;
     background-color: rgba(95, 36, 36, 0.445);
 }

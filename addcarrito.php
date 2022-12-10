@@ -1,5 +1,8 @@
 <?php
-    
+    require_once 'Helpers.php';
+    require_once 'Parameters.php';
+    session_start();
+
     $servidor='localhost';
     $cuenta='root';
     $password='';
@@ -16,32 +19,36 @@
 
         $sql = 'SELECT * from carrito';
         $resultado = $conexion -> query($sql);
-
         $i=0;
         while( $fila = $resultado ->  fetch_assoc()){
             $i++;
         }
 
         $añadido = $_GET['q'];
+        echo $_SESSION['User']->Id;
         if ($i >0 ){
             $sql = 'SELECT * from carrito';
             $resultado = $conexion -> query($sql);
-            $band = false;    
+            $band = false; 
             while( $fila = $resultado ->  fetch_assoc()){
                 $nombre = $fila['Nombre_Producto'];
-                if($nombre == $añadido){
+                $id = $fila['Id_Usuario'];
+                if($nombre == $añadido && $id == $_SESSION['User']->Id){
                     $cantidad = $fila['Cantidad'];
                     $cantidad++;
+                    $id_usuario = $_SESSION["User"]->Id;
                     $sql = "UPDATE carrito SET Cantidad='$cantidad' WHERE Nombre_Producto='$nombre'";
                     $band=true;
                 }
                 if($band==false){
-                    $sql = "INSERT INTO carrito (Nombre_Producto, Id_Usuario, Cantidad) VALUES('$añadido', '01','1' )";
+                    $id_usuario = $_SESSION["User"]->Id;
+                    $sql = "INSERT INTO carrito (Nombre_Producto, Id_Usuario, Cantidad) VALUES('$añadido', '$id_usuario ','1' )";
                 }
             }
 
         } else {
-            $sql = "INSERT INTO carrito (Nombre_Producto, Id_Usuario, Cantidad) VALUES('$añadido', '01','1' )";
+            $id_usuario = $_SESSION["User"]->Id;
+            $sql = "INSERT INTO carrito (Nombre_Producto, Id_Usuario, Cantidad) VALUES('$añadido', '$id_usuario ','1' )";
         }
 
 

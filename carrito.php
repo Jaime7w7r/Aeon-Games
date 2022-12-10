@@ -41,7 +41,8 @@ $conexion = new mysqli($servidor,$cuenta,$password,$bd);
         while( $fila = $car ->  fetch_assoc()){
             $nombre_carrito = $fila['Nombre_Producto'];
             $cantidad = $fila['Cantidad'];
-            if($nombre_carrito == $nombre){
+            $id = $fila['Id_Usuario'];
+            if($nombre_carrito == $nombre && $id == $_SESSION['User']->Id ){
     ?>
     <script>
     array.push("<?php echo $nombre_carrito ?>");

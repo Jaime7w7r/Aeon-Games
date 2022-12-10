@@ -137,8 +137,7 @@ $Fecha=date('d/m/y');
 
         <?php 
             echo '<img src="imagenes\usuario.png" style="width: 20px; height: 20px; margin-top:5px;" alt="user">';
-            $User=$_SESSION['User'];
-            echo '<p class="usuario">'.$User['Name'].'</p>';
+            echo '<p class="usuario">'.$_SESSION['User']->Name.'</p>';
         ?>
         </div>
         <button onclick="location.href='LogOut.php'" type="button" class="btn btn-outline-dark"><span class="login">LogOut</span></button>

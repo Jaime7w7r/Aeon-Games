@@ -6,7 +6,7 @@
 
 }
 
-.btn-pago > input{
+.btn-pago > button{
 	width: 350px;
 	padding: 10px;
 	border-radius:10px ;
@@ -19,6 +19,8 @@
 	color: white;
 	font-size: 15px;
 	font-weight: bold;
+	padding: 10px;
+	border-radius: 10px;
 }
 
 .btn-pago .btn2{
@@ -26,6 +28,18 @@
 	color: red;
 	font-size: 15px;
 	font-weight: bold;
+	padding: 10px;
+	border-radius: 10px;
 
+}
+
+.btn1 img{
+	margin-left: 10px;
+	width: 30px;
+}
+
+.btn2 img{
+	margin-left: 10px;
+	width: 30px;
 }
 

@@ -20,7 +20,7 @@
 		}
 
 		if(!empty($_POST['pagoOXXO'])){
-			header('Location: index.php');
+			header('Location: pagoOXXO.php');
 		}
 
 	?>

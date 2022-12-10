@@ -17,6 +17,7 @@ $conexion = new mysqli($servidor,$cuenta,$password,$bd);
     <link rel="shortcut icon" href="imagenes/logo.png">
     <script src="carrito.js"></script>
     <link rel="stylesheet" href="estilos/carrito.css">
+    <link rel="stylesheet" type="text/css" href="estilos/pagos.css">
     <title>Aeon Games</title>
 </head>
 
@@ -104,7 +105,7 @@ $conexion = new mysqli($servidor,$cuenta,$password,$bd);
             <div class="card-body">
                 <h5 class="card-title">Subtotal $<?php echo $total ?></h5>
                 <p class="card-text"><?php echo $descuento ?></p>
-                <a href="<?= isset($_SESSION['User']) ?  'hOLA' : 'LogInForm.php'?>" class="btn btn-primary">Comprar</a>
+                <a href="<?= isset($_SESSION['User']) ?  '' : 'LogInForm.php'?>" class="btn btn-primary" data-toggle="modal" data-target="#modalPassword">Comprar</a>
             </div>
             <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
             <div class="input-group mb-3">
@@ -117,6 +118,76 @@ $conexion = new mysqli($servidor,$cuenta,$password,$bd);
             </form>
         </div>
     </div>
+
+    <div id="modalPassword" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Datos de Envio</h3>
+                <button type="button" class="close font-weight-light" data-dismiss="modal" aria-hidden="true">×</button>
+            </div>
+            <form class="form" role="form" action="<?php htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
+            <div class="modal-body">
+                <div>
+                    <label>Nombre completo</label><br>
+                    <input type="text" name="nombre">
+                </div>
+                <div>
+                    <label>Dirección Email <small>(Valoramos tu privacidad)</small></label><br>
+                    <input type="text" name="email">
+                </div>
+                <div>
+                    <label>Dirección</label><br>
+                    <input type="text" name="direccion">
+                </div>
+                <div>
+                    <label>Ciudad</label><br>
+                    <input type="text" name="ciudad">
+                </div>
+                <div>
+                    <label>País</label><br>
+                    <select name="pais">
+                        <option name="selec">Selecciona un Pais</option>
+                        <option name="mexico">México</option>
+                        <option name="usa">Estados Unidos</option>
+                        <option name="canada">Canada</option>
+                        <option name="arg">Argentina</option>
+                    </select>
+                </div>
+                <div>
+                    <label>Codigo Postal</label><br>
+                    <input type="number" name="cp">
+                </div>
+                <div>
+                    <label>Numero Telefonico</label><br>
+                    <input type="tel" name="telefono">
+                </div>
+             
+                
+            </div>
+            <div class="modal-footer">                
+                <div class="form-group">
+                    <div class="btn-pago">
+                        <button class="btn1" type="submit" name="pagoDC">Pago con tarjeta de Credito o Debito <img src="imagenes/pagotarjetas.png"></button>
+                        <button class="btn2" type="submit" name="pagoOXXO">Pago en OXXO<img src="imagenes/oxxo.png"></button>
+                    </div>  
+
+                     <?php 
+                        if(!empty($_POST['pagoDC'])){
+                            header('Location: formularioPago.php');
+                        }
+
+                        if(!empty($_POST['pagoOXXO'])){
+                            header('Location: pagoOXXO.php');
+                        }
+
+                    ?>             
+               </div>
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
 
 
     <?php 

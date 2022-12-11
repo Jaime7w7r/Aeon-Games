@@ -44,8 +44,7 @@
 		</form>
 	</div>
 		</div>
-	<div style=" position: absolute;
-    bottom: 0; width: 100%;"><?php 
-    include 'footer.php';?></div>
+	<?php 
+    include 'footer.php';?>
 </body>
 </html>

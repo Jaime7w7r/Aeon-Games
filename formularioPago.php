@@ -8,10 +8,11 @@
 	
 </head>
 <body>
-
-
+	<?php include 'header.php';?>
 	<div class="contenedor">
-		<form action="" method="POST">
+		<div class="contenedor1">
+			<form action="" method="POST">
+				<br>
 			<h2>INGRESA TARJETA DE CREDITO O DEBITO</h2>
 			<div align="center">
 				<img class="imgTar" src="imagenes/tarjetas.png">
@@ -40,5 +41,7 @@
 			</div>
 		</form>
 	</div>
-
+		</div>
+	<?php include 'footer.php';?>
+</body>
 </html>

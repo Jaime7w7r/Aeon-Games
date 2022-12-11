@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<link rel="shortcut icon" href="imagenes/logo.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!--<meta http-equiv="refresh" content="2">-->
 	<link rel="stylesheet" type="text/css" href="estilos/estilosFormPagos.css">
@@ -42,6 +43,8 @@
 		</form>
 	</div>
 		</div>
-	<?php include 'footer.php';?>
+	<div style=" position: absolute;
+    bottom: 0; width: 100%;"><?php 
+    include 'footer.php';?></div>
 </body>
 </html>

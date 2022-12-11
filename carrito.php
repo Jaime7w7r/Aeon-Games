@@ -200,8 +200,9 @@ $conexion = new mysqli($servidor,$cuenta,$password,$bd);
        
 
     ?>
-    <?php 
-    include 'footer.php';?>
+    <div style=" position: absolute;
+    bottom: 0; width: 100%;"><?php 
+    include 'footer.php';?></div>
     <script>
     function recargar() {
         location.reload();

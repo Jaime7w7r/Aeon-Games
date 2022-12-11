@@ -25,15 +25,12 @@
                 $nombre = $fila['Nombre_Producto'];
                 $cantidad = $fila['Cantidad'];
                 $id = $fila['Id_Usuario'];
-                if($nombre == $eliminar){
+                if($nombre == $eliminar  && $id == $_SESSION['User']->Id){
                     if($cantidad==1){
                         $sql="DELETE FROM carrito WHERE `carrito`.`Nombre_Producto` = '$nombre'";
                     }else{
-                        if($id==$_SESSION['User']->Id){
-                            $cantidad--;
-                            $sql = "UPDATE carrito SET Cantidad='$cantidad' WHERE Nombre_Producto='$nombre'";
-                        }
-
+                        $cantidad--;
+                        $sql = "UPDATE carrito SET Cantidad='$cantidad' WHERE Nombre_Producto='$nombre'";
                     }
                 }
 

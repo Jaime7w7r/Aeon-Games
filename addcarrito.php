@@ -25,21 +25,18 @@
         }
 
         $añadido = $_GET['q'];
-        
+        echo $_SESSION['User']->Id;
         if ($i >0 ){
-            $usuario=$_SESSION['User']->Id;
-            $sql = "SELECT * from carrito WHERE Id_Usuario='$usuario'" ;
+            $sql = 'SELECT * from carrito';
             $resultado = $conexion -> query($sql);
             $band = false; 
             while( $fila = $resultado ->  fetch_assoc()){
                 $nombre = $fila['Nombre_Producto'];
                 $id = $fila['Id_Usuario'];
-                
-                if($nombre == $añadido){
+                if($nombre == $añadido && $id == $_SESSION['User']->Id){
                     $cantidad = $fila['Cantidad'];
                     $cantidad++;
                     $id_usuario = $_SESSION["User"]->Id;
-                    echo $id."  ".$_SESSION['User']->Id;
                     $sql = "UPDATE carrito SET Cantidad='$cantidad' WHERE Nombre_Producto='$nombre'";
                     $band=true;
                 }

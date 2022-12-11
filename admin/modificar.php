@@ -43,7 +43,25 @@ if(isset($_POST['submit'])){
 		$cuatro = $_POST['descripcion2'];
         $cinco =  $_POST['existencia2'];
         $seis = $_POST['precio2'];
-        $siete = $_POST['imagen2'];
+        $siete = $_FILES['imagen2']['name'];
+
+        
+        if(file_exists('imagenes/'.$_SESSION['simagen']))
+        {
+           $nombre_imagen = $_SESSION['simagen'];
+           unlink('imagenes/'.$nombre_imagen);
+       }
+
+        if(isset($_FILES['imagen2'])){
+            print_r($_FILES);
+            $nombre_imagen=$_FILES['imagen2']['name'];
+            $guardado = $_FILES['imagen2']['tmp_name'];
+            move_uploaded_file($guardado, '../imagenes/Juegos/'.$nombre_imagen);
+         }
+
+
+
+
 
 		$modificar1 = $_SESSION['modificar2'];
 		
@@ -138,7 +156,7 @@ if(isset($_POST['submit'])){
         </div>
         <div class="derecha">
         
-            <form class="estiloformulario" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method='post'>
+            <form class="estiloformulario" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method='post' enctype="multipart/form-data">
             <ul class="wrapper">
                 <li class="form-row">
                 <label for="ID">ID</label>

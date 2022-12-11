@@ -13,8 +13,15 @@ if ($conexion->connect_errno) {
     
     if (isset($_POST["submit"])) {
         //obtenemos datos del formulario
-        
+
         $eliminar = $_POST['eliminar'];
+
+        $sql= "SELECT * FROM productos WHERE ID='$eliminar'";
+        $resultado = $conexion->query($sql);
+        $imagen = $resultado ->  fetch_assoc();
+        $nombre_imagen = $imagen['Imagen'];
+        unlink('../imagenes/Juegos/'.$nombre_imagen);
+
         //hacemos cadena con la sentencia mysql para eliminar
         $sql = " DELETE FROM productos WHERE ID='$eliminar'";
         $conexion->query($sql);

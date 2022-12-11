@@ -6,7 +6,7 @@ $password='';
 $bd='tienda_prueba';
 $conexion = new mysqli($servidor,$cuenta,$password,$bd);
 	session_start();
-
+	date_default_timezone_set('America/Mexico_City');
 	$pdf = new PDF_Code128('P','mm','Letter');
 	$pdf->SetMargins(17,17,17);
 	$pdf->AddPage();
@@ -23,7 +23,7 @@ $conexion = new mysqli($servidor,$cuenta,$password,$bd);
 
 	$pdf->SetFont('Arial','',10);
 	$pdf->SetTextColor(39,39,51);
-	$pdf->Cell(150,9,utf8_decode("RFC: 0000000000"),0,0,'L');
+	$pdf->Cell(150,9,utf8_decode("RFC: AEGA221211I97"),0,0,'L');
 
 	$pdf->Ln(5);
 
@@ -40,11 +40,11 @@ $conexion = new mysqli($servidor,$cuenta,$password,$bd);
 	$pdf->Cell(150,9,utf8_decode("Email: aeongames@gmail.com"),0,0,'L');
 
 	$pdf->Ln(10);
-
+	$fecha=date("d/m/y");
 	$pdf->SetFont('Arial','',10);
 	$pdf->Cell(30,7,utf8_decode("Fecha de emisión:"),0,0);
 	$pdf->SetTextColor(97,97,97);
-	$pdf->Cell(116,7,utf8_decode(date("d/m/y", strtotime("13-09-2022"))." ".date("h:s A")),0,0,'L');
+	$pdf->Cell(116,7,utf8_decode(date("d/m/y", strtotime($fecha))." ".date('h:i:s')),0,0,'L');
 	$pdf->SetFont('Arial','B',10);
 	$pdf->SetTextColor(39,39,51);
 	$pdf->Cell(35,7,utf8_decode(strtoupper("Factura Nro.")),0,0,'C');
@@ -59,11 +59,24 @@ $conexion = new mysqli($servidor,$cuenta,$password,$bd);
 	$pdf->SetTextColor(39,39,51);
 	$pdf->Cell(13,7,utf8_decode("Cliente:"),0,0);
 	$pdf->SetTextColor(97,97,97);
-	$pdf->Cell(60,7,utf8_decode("Carlos Alfaro"),0,0,'L');
+	$sql = 'SELECT * from users';
+    $user = $conexion -> query($sql);
+    
+    while( $fila = $user ->  fetch_assoc()){
+        $nombre = $fila['Name'];
+        $apellido = $fila['LastName'];
+        $id = $fila['Id'];
+      
+        if($id == $_SESSION['User']->Id ){
+        	$nom=$nombre;
+        	$apell=$apellido;
+        }
+    }
+	$pdf->Cell(60,7,utf8_decode($nombre." ".$apell),0,0,'L');
 	$pdf->SetTextColor(39,39,51);
-	$pdf->Cell(8,7,utf8_decode("Doc: "),0,0,'L');
+	$pdf->Cell(8,7,utf8_decode("RFC: "),0,0,'L');
 	$pdf->SetTextColor(97,97,97);
-	$pdf->Cell(60,7,utf8_decode("DNI: 00000000"),0,0,'L');
+	$pdf->Cell(60,7,utf8_decode(rand(0000000000000, 9999999999999)),0,0,'L');
 	$pdf->SetTextColor(39,39,51);
 	$pdf->Cell(7,7,utf8_decode("Tel:"),0,0,'L');
 	$pdf->SetTextColor(97,97,97);
@@ -75,7 +88,7 @@ $conexion = new mysqli($servidor,$cuenta,$password,$bd);
 	$pdf->SetTextColor(39,39,51);
 	$pdf->Cell(6,7,utf8_decode("Dir:"),0,0);
 	$pdf->SetTextColor(97,97,97);
-	$pdf->Cell(109,7,utf8_decode("San Salvador, El Salvador, Centro America"),0,0);
+	$pdf->Cell(109,7,utf8_decode("Aguascalientes"),0,0);
 
 	$pdf->Ln(9);
 
@@ -117,12 +130,13 @@ $conexion = new mysqli($servidor,$cuenta,$password,$bd);
             $cantidad = $fila['Cantidad'];
             $id = $fila['Id_Usuario'];
             if($nombre_carrito == $nombre && $id == $_SESSION['User']->Id ){
-                $tot=$precio*$cantidad;
+                $tot=round($precio/1.16, 2);
+                $total+=$tot*$cantidad;
                 $pdf->Cell(90,7,utf8_decode($nombre_carrito),'L',0,'C');
                 $pdf->Cell(15,7,utf8_decode($cantidad),'L',0,'C');
-	$pdf->Cell(25,7,utf8_decode($precio),'L',0,'C');
+	$pdf->Cell(25,7,utf8_decode("$".round($precio/1.16, 2)),'L',0,'C');
 	$pdf->Cell(19,7,utf8_decode("$0.00 MXN"),'L',0,'C');
-	$pdf->Cell(32,7,utf8_decode($cantidad*$precio),'LR',0,'C');
+	$pdf->Cell(32,7,utf8_decode("$".$cantidad*round($precio/1.16, 2)),'LR',0,'C');
 	$pdf->Ln(7);
            } // fin de del if
             
@@ -139,14 +153,14 @@ $conexion = new mysqli($servidor,$cuenta,$password,$bd);
 	$pdf->Cell(100,7,utf8_decode(''),'T',0,'C');
 	$pdf->Cell(15,7,utf8_decode(''),'T',0,'C');
 	$pdf->Cell(32,7,utf8_decode("SUBTOTAL"),'T',0,'C');
-	$pdf->Cell(34,7,utf8_decode("+ $70.00 USD"),'T',0,'C');
+	$pdf->Cell(34,7,utf8_decode("$".$total),'T',0,'C');
 
 	$pdf->Ln(7);
 
 	$pdf->Cell(100,7,utf8_decode(''),'',0,'C');
 	$pdf->Cell(15,7,utf8_decode(''),'',0,'C');
-	$pdf->Cell(32,7,utf8_decode("IVA (13%)"),'',0,'C');
-	$pdf->Cell(34,7,utf8_decode("+ $0.00 USD"),'',0,'C');
+	$pdf->Cell(32,7,utf8_decode("IVA (16%)"),'',0,'C');
+	$pdf->Cell(34,7,utf8_decode("$".round($total*0.16)),'',0,'C');
 
 	$pdf->Ln(7);
 
@@ -154,30 +168,8 @@ $conexion = new mysqli($servidor,$cuenta,$password,$bd);
 	$pdf->Cell(15,7,utf8_decode(''),'',0,'C');
 
 
-	$pdf->Cell(32,7,utf8_decode("TOTAL A PAGAR"),'T',0,'C');
-	$pdf->Cell(34,7,utf8_decode("$70.00 USD"),'T',0,'C');
-
-	$pdf->Ln(7);
-
-	$pdf->Cell(100,7,utf8_decode(''),'',0,'C');
-	$pdf->Cell(15,7,utf8_decode(''),'',0,'C');
-	$pdf->Cell(32,7,utf8_decode("TOTAL PAGADO"),'',0,'C');
-	$pdf->Cell(34,7,utf8_decode("$100.00 USD"),'',0,'C');
-
-	$pdf->Ln(7);
-
-	$pdf->Cell(100,7,utf8_decode(''),'',0,'C');
-	$pdf->Cell(15,7,utf8_decode(''),'',0,'C');
-	$pdf->Cell(32,7,utf8_decode("CAMBIO"),'',0,'C');
-	$pdf->Cell(34,7,utf8_decode("$30.00 USD"),'',0,'C');
-
-	$pdf->Ln(7);
-
-	$pdf->Cell(100,7,utf8_decode(''),'',0,'C');
-	$pdf->Cell(15,7,utf8_decode(''),'',0,'C');
-	$pdf->Cell(32,7,utf8_decode("USTED AHORRA"),'',0,'C');
-	$pdf->Cell(34,7,utf8_decode("$0.00 USD"),'',0,'C');
-
+	$pdf->Cell(32,7,utf8_decode("TOTAL"),'T',0,'C');
+	$pdf->Cell(34,7,utf8_decode("$".round(($total*0.16)+$total)),'T',0,'C');
 	$pdf->Ln(12);
 
 	$pdf->SetFont('Arial','',9);
@@ -196,4 +188,5 @@ $conexion = new mysqli($servidor,$cuenta,$password,$bd);
 	$pdf->MultiCell(0,5,utf8_decode("COD000001V0001"),0,'C',false);
 
 	# Nombre del archivo PDF #
-	$pdf->Output("I","Factura_Nro_1.pdf",true);
+	$pdf->Output("I","Factura_".Date("Y-m-d")."_".date('h:i:s').".pdf",true); 
+		mail("jaimeadolfov07@gmail.com", "a","a");

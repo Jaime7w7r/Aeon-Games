@@ -4,10 +4,7 @@ productos que se considere pertinente y la posibilidad de agregar el producto al
 las dos categorías.*/ ?>
 <?php
 
-$servidor='localhost';
-$cuenta='root';
-$password='';
-$bd='tienda_prueba';
+require_once 'basedatos.php';
 
 $conexion = new mysqli($servidor,$cuenta,$password,$bd);
 

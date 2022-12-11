@@ -147,15 +147,11 @@ background: linear-gradient(0deg, rgba(11,4,14,0.7763480392156863) 22%, rgba(142
                                         class="price"><?php if($encontrado==$n){ ?><del>$<?php echo $precio ?></del>
                                         <p>$<?php echo $precio*.90 ?></p><?php }else{echo '$';echo $precio;}?>
                                     </span></div>
-                                    <?php if(isset( $_SESSION['User']->Name)){
-                                                echo '<div class="wcf-right"><button type="button" class="buy-btn"
-                                                id="<?php echo $numPro ?>btn"><i class="zmdi zmdi-shopping-basket"><img
-                                                        src="imagenes/imagei.png" width="60%" id="<?php echo $numPro ?>"
-                                                        onclick="agregar(this.id);elegido(this.id);"></i></button>
-                                                        </div>';
-                                            }else{
-                                                echo '<a href="LogInForm.php" class="btn btn-info">Login</a>';
-                                            } ?>
+                                <div class="wcf-right"><button type="button" class="buy-btn"
+                                        id="<?php echo $numPro ?>btn"><i class="zmdi zmdi-shopping-basket"><img
+                                                src="imagenes/imagei.png" width="60%" id="<?php echo $numPro ?>"
+                                                onclick="agregar(this.id);elegido(this.id);"></i></button>
+                                </div>
 
                             </div>
                         </div>
@@ -222,15 +218,11 @@ background: linear-gradient(0deg, rgba(11,4,14,0.7763480392156863) 22%, rgba(142
                                         class="price"><?php if($encontrado==$n){ ?><del>$<?php echo $precio ?></del>
                                         <p>$<?php echo $precio*.90 ?></p><?php }else{echo '$';echo $precio;}?>
                                     </span></div>
-                                    <?php if(isset( $_SESSION['User']->Name)){
-                                                echo '<div class="wcf-right"><button type="button" class="buy-btn"
-                                                id="<?php echo $numPro ?>btn"><i class="zmdi zmdi-shopping-basket"><img
-                                                        src="imagenes/imagei.png" width="60%" id="<?php echo $numPro ?>"
-                                                        onclick="agregar(this.id);elegido(this.id);"></i></button>
-                                                        </div>';
-                                            }else{
-                                                echo '<a href="LogInForm.php" class="btn btn-info">Login</a>';
-                                            } ?>
+                                <div class="wcf-right"><button type="button" class="buy-btn"
+                                        id="<?php echo $numPro ?>btn"><i class="zmdi zmdi-shopping-basket"><img
+                                                src="imagenes/imagei.png" width="60%" id="<?php echo $numPro ?>"
+                                                onclick="agregar(this.id);elegido(this.id);"></i></button>
+                                </div>
 
                             </div>
                         </div>
@@ -296,16 +288,11 @@ background: linear-gradient(0deg, rgba(11,4,14,0.7763480392156863) 22%, rgba(142
                                         class="price"><?php if($encontrado==$n){ ?><del>$<?php echo $precio ?></del>
                                         <p>$<?php echo $precio*.90 ?></p><?php }else{echo '$';echo $precio;}?>
                                     </span></div>
-                                    <?php if(isset( $_SESSION['User']->Name)){
-                                                echo '<div class="wcf-right"><button type="button" class="buy-btn"
-                                                id="<?php echo $numPro ?>btn"><i class="zmdi zmdi-shopping-basket"><img
-                                                        src="imagenes/imagei.png" width="60%" id="<?php echo $numPro ?>"
-                                                        onclick="agregar(this.id);elegido(this.id);"></i></button>
-                                                        </div>';
-                                            }else{
-                                                echo '<a href="LogInForm.php" class="btn btn-info">Login</a>';
-                                            } ?>
-                                            
+                                <div class="wcf-right"><button type="button" class="buy-btn"
+                                        id="<?php echo $numPro ?>btn"><i class="zmdi zmdi-shopping-basket"><img
+                                                src="imagenes/imagei.png" width="60%" id="<?php echo $numPro ?>"
+                                                onclick="agregar(this.id);elegido(this.id);"></i></button>
+                                </div>
 
                             </div>
                         </div>

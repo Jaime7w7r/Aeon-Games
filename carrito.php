@@ -56,7 +56,7 @@ $conexion = new mysqli($servidor,$cuenta,$password,$bd);
                 <div class="card-body">
                     <h5 class="card-title"><?php echo $nombre_carrito ?></h5>
                     <h6>Cantidad: <?php echo $cantidad ?> </h6>
-                    <h6>Subtotal:$ <?php echo ($cantidad * $precio) ?> </h6>
+                    <h6>Subtotal:$ <?php echo number_format($cantidad * $precio) ?> </h6>
                     <button type="button" class="buttonmas " id="<?php echo $numPro ?>"
                         onclick="agregar(this.id);recargar();"
                         <?php if($existencia<=$cantidad){echo 'disabled'; } ?>>+</button>
@@ -103,7 +103,7 @@ $conexion = new mysqli($servidor,$cuenta,$password,$bd);
     <div class="total">
         <div class="card w-200">
             <div class="card-body">
-                <h5 class="card-title">Subtotal $<?php echo $total ?></h5>
+                <h5 class="card-title">Subtotal $<?php echo number_format($total) ?></h5>
                 <p class="card-text"><?php echo $descuento ?></p>
                 <a href="<?= isset($_SESSION['User']) ?  '' : 'LogInForm.php'?>" class="btn btn-primary" data-toggle="modal" data-target="#modalPassword">Comprar</a>
             </div>

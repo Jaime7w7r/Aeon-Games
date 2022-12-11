@@ -125,6 +125,16 @@ $Fecha=date('d/m/y');
                 class="<?php if ($_SERVER['PHP_SELF'] == "/curso/Aeon-Games/ayuda.php"){ echo 'nav-item active'; }else{ echo 'nav-item'; } ?>">
                 <a class="nav-link " href="ayuda.php">Ayuda</a>
             </li>
+            <?php if(isset($_SESSION['User'])):
+                if(($_SESSION['User']->Rol) == "amd"):
+                ?>
+            <li
+                class="<?php if ($_SERVER['PHP_SELF'] == "/curso/Aeon-Games/ayuda.php"){ echo 'nav-item active'; }else{ echo 'nav-item'; } ?>">
+                <a class="nav-link " href="admin/administrador.php">Admin</a>
+            </li>
+             <?php 
+             endif;
+            endif; ?>
         </ul>
         <?PHP if(!isset($_SESSION['User'])):?>
             

@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="shortcut icon" href="imagenes/logo.png">
+	<title>Aeon Games</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!--<meta http-equiv="refresh" content="2">-->
 	<link rel="stylesheet" type="text/css" href="estilos/estilosFormPagos.css">
@@ -12,7 +13,7 @@
 	<?php include 'header.php';?>
 	<div class="contenedor">
 		<div class="contenedor1">
-			<form action="" method="POST">
+			<form action="PagoE.php" method="POST">
 				<br>
 			<h2>INGRESA TARJETA DE CREDITO O DEBITO</h2>
 			<div align="center">

@@ -80,7 +80,7 @@ $conexion = new mysqli($servidor,$cuenta,$password,$bd);
 	$pdf->SetTextColor(39,39,51);
 	$pdf->Cell(7,7,utf8_decode("Tel:"),0,0,'L');
 	$pdf->SetTextColor(97,97,97);
-	$pdf->Cell(35,7,utf8_decode("00000000"),0,0);
+	$pdf->Cell(35,7,utf8_decode(rand(00000000, 99999999)),0,0);
 	$pdf->SetTextColor(39,39,51);
 
 	$pdf->Ln(7);
@@ -130,13 +130,13 @@ $conexion = new mysqli($servidor,$cuenta,$password,$bd);
             $cantidad = $fila['Cantidad'];
             $id = $fila['Id_Usuario'];
             if($nombre_carrito == $nombre && $id == $_SESSION['User']->Id ){
-                $tot=round($precio/1.16, 2);
+                $tot=round($precio, 2);
                 $total+=$tot*$cantidad;
                 $pdf->Cell(90,7,utf8_decode($nombre_carrito),'L',0,'C');
                 $pdf->Cell(15,7,utf8_decode($cantidad),'L',0,'C');
-	$pdf->Cell(25,7,utf8_decode("$".round($precio/1.16, 2)),'L',0,'C');
+	$pdf->Cell(25,7,utf8_decode("$".round($precio/1, 2)),'L',0,'C');
 	$pdf->Cell(19,7,utf8_decode("$0.00 MXN"),'L',0,'C');
-	$pdf->Cell(32,7,utf8_decode("$".$cantidad*round($precio/1.16, 2)),'LR',0,'C');
+	$pdf->Cell(32,7,utf8_decode("$".$cantidad*round($precio, 2)),'LR',0,'C');
 	$pdf->Ln(7);
            } // fin de del if
             

@@ -23,6 +23,8 @@ $conexion = new mysqli($servidor,$cuenta,$password,$bd);
 
 <body>
     <?php include 'header.php';?>
+    <h5>Cupon 1: DESbee1 </h5>
+    <h5>Cupon 2: desppe2</h5>
 <div class="Container">
         <div class="row">
     <?php

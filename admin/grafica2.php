@@ -1,10 +1,5 @@
 <?php
-   $servidor='localhost';
-   $cuenta='root';
-   $password='';
-   $bd='tienda_prueba';
-
-   $conexion = new mysqli($servidor,$cuenta,$password,$bd);
+require_once '../basedatos.php';
 
    if ($conexion->connect_errno){
         die('Error en la conexion');

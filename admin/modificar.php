@@ -1,10 +1,6 @@
 <?php
    session_start();
      
-    $servidor='localhost';
-    $cuenta='root';
-    $password='';
-    $bd='tienda_prueba';
      
     $_SESSION['sID'] = '';
     $_SESSION['snombre'] = '';
@@ -14,7 +10,7 @@
     $_SESSION['sprecio'] = '';
     $_SESSION['simagen'] = '';
 
-    $conexion = new mysqli($servidor,$cuenta,$password,$bd);
+    require_once '../basedatos.php';
 
     if ($conexion->connect_errno){
          die('Error en la conexion');

@@ -118,7 +118,7 @@ background: linear-gradient(0deg, rgba(11,4,14,0.7763480392156863) 22%, rgba(142
                             </button>
                         </div>
                         <div class="toast-body">
-                            <p>Se a ahregado <?php echo $nombre ?> al carrito</p>
+                            <p>Se a agrego <?php echo $nombre ?> al carrito</p>
                         </div>
                     </div>
                 </div>
@@ -189,7 +189,7 @@ background: linear-gradient(0deg, rgba(11,4,14,0.7763480392156863) 22%, rgba(142
                             </button>
                         </div>
                         <div class="toast-body">
-                            <p>Se a ahregado <?php echo $nombre ?> al carrito</p>
+                            <p>Se a agrego <?php echo $nombre ?> al carrito</p>
                         </div>
                     </div>
                 </div>
@@ -259,7 +259,7 @@ background: linear-gradient(0deg, rgba(11,4,14,0.7763480392156863) 22%, rgba(142
                             </button>
                         </div>
                         <div class="toast-body">
-                            <p>Se a ahregado <?php echo $nombre ?> al carrito</p>
+                            <p>Se a agrego <?php echo $nombre ?> al carrito</p>
                         </div>
                     </div>
                 </div>

@@ -7,10 +7,8 @@ use Dompdf\Dompdf;
 
 
 
- $html=file_get_contents_curl("http://localhost/ProyectoFinal/Aeon-Games/pdf/OxxoRecibo.php");
+ $html=file_get_contents_curl("https://juanma1234.000webhostapp.com/OxxoRecibo.php");
 
-
- 
 // Instanciamos un objeto de la clase DOMPDF.
 $pdf = new DOMPDF();
  

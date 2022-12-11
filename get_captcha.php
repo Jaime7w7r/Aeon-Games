@@ -83,6 +83,7 @@ setcookie("captcha1", sha1($captcha), time()+60*5);
 imagejpeg($captchaImage); 
 imagedestroy($captchaImage);
 $_SESSION['captcha'] = $captcha; 
+
 function hextorgb ($hexstring){
 	$integar = hexdec($hexstring);
 	return array(

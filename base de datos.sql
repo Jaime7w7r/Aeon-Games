@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 11-12-2022 a las 15:07:26
+-- Tiempo de generación: 12-12-2022 a las 06:37:01
 -- Versión del servidor: 10.4.24-MariaDB
 -- Versión de PHP: 8.1.6
 
@@ -17,7 +17,9 @@ SET time_zone = "+00:00";
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
 /*!40101 SET NAMES utf8mb4 */;
 
-
+--
+-- Base de datos: `tienda_prueba`
+--
 
 -- --------------------------------------------------------
 
@@ -31,6 +33,17 @@ CREATE TABLE `carrito` (
   `Id_Usuario` varchar(1) NOT NULL,
   `Cantidad` int(5) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Volcado de datos para la tabla `carrito`
+--
+
+INSERT INTO `carrito` (`ID`, `Nombre_Producto`, `Id_Usuario`, `Cantidad`) VALUES
+(2, 'CALL OF DUTY: MODERN WARFARE II', '1', 1),
+(3, 'SPIDER-MAN MILLES MORALES', '1', 1),
+(4, 'MORTAL KOMBAT 11', '1', 1),
+(8, 'CONSOLA NINTENDO SWITCH', '1', 1),
+(9, 'Consola PlayStation 5', '1', 5);
 
 -- --------------------------------------------------------
 
@@ -67,7 +80,8 @@ INSERT INTO `productos` (`ID`, `Nombre`, `Categoria`, `Descripcion`, `Existencia
 (48, 'THE LEGEND OF ZELDA BREATH OF THE WILD', 'NINTENDO', '¡Entra en un Mundo de Aventura. Olvida todo lo que sabes sobre los juegos de The Legend of Zelda. Entra en un mundo de descubrimientos, exploración y aventura en The Legend of Zelda: Breath of the Wild, un nuevo juego de la aclamada serie que rompe c', 10, 1199, 'zelda.jpg'),
 (49, 'SUPER MARIO ODYSSEY', 'NINTENDO', 'Acompaña a Mario en una aventura en 3D enorme por todo el planeta usando sus nuevas habilidades para recoger lunas que servirán de combustible a tu aeronave, la Odyssey. ¡Y entretanto, rescata a la princesa Peach de las garras de Bowser.', 10, 1290, 'mario.jpg'),
 (50, 'CONSOLA NINTENDO SWITCH', 'consola', 'Presentamos Nintendo Switch, el nuevo sistema de videojuego para el hogar de Nintendo; además de proporcionar emociones únicas y multijugador en casa, el sistema Nintendo Switch se puede llevar mientras viaja para que los jugadores puedan disfrutar d', 5, 7000, 'ConsoleNSW.jpg'),
-(51, 'MARIO PARTY SUPERSTARS', 'NINTENDO', 'Llamando a todos los seguidores! Mario Party™ está de regreso con cinco tableros clásicos del juego de fiesta para la consola Nintendo 64. El glaseado y las flores estarán presentes mientras compites por obtener el mayor número de estrellas (y sabote', 10, 1300, 'marioPar.jpg');
+(51, 'MARIO PARTY SUPERSTARS', 'NINTENDO', 'Llamando a todos los seguidores! Mario Party™ está de regreso con cinco tableros clásicos del juego de fiesta para la consola Nintendo 64. El glaseado y las flores estarán presentes mientras compites por obtener el mayor número de estrellas (y sabote', 10, 1300, 'marioPar.jpg'),
+(52, 'MINECRAFT', 'XBOX', 'Juego de mundo abierto de creación de bloques', 10, 1000, '');
 
 -- --------------------------------------------------------
 
@@ -92,7 +106,8 @@ CREATE TABLE `users` (
 INSERT INTO `users` (`Id`, `Name`, `LastName`, `Email`, `Password`, `Rol`, `Bloqueado`) VALUES
 (1, 'Juan', 'Martinez', 'juanmamtzx202@gmail.com', '$2y$04$JOWhsD6vCDEp56u84wfLPu3e5tFsBptLECgUQnqWsjTv9Xwxnj32q', 'user', 'no'),
 (2, 'carlos', 'Martinez', 'juanmamtzx2021@gmail.com', '$2y$04$5vx2XkFuF.DjCrjDgX63uOh/za2GxieuzyK8nBj3M8JONDxkdWhOu', 'user', 'no'),
-(3, 'Admin', 'admin', 'admin@gmail.com', '$2y$04$c6t4r3H/vq1KGwckbbxV0.YC5vJEUb3Wzut15KqogPwwrKfp6.5d2', 'amd', 'no');
+(3, 'Admin', 'admin', 'admin@gmail.com', '$2y$04$c6t4r3H/vq1KGwckbbxV0.YC5vJEUb3Wzut15KqogPwwrKfp6.5d2', 'amd', 'no'),
+(8, 'Manuel', 'Martinez', 'manuel@gmail.com', '$2y$04$xE.UEiYIG19n8ncyueyx4e3IOUUvjybC6XJVAqH2Vw2xDYaPxnXvy', 'user', 'no');
 
 -- --------------------------------------------------------
 
@@ -149,13 +164,19 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT de la tabla `carrito`
 --
 ALTER TABLE `carrito`
-  MODIFY `ID` int(5) NOT NULL AUTO_INCREMENT;
+  MODIFY `ID` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+
+--
+-- AUTO_INCREMENT de la tabla `productos`
+--
+ALTER TABLE `productos`
+  MODIFY `ID` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=55;
 
 --
 -- AUTO_INCREMENT de la tabla `users`
 --
 ALTER TABLE `users`
-  MODIFY `Id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `Id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
